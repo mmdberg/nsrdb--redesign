@@ -23,8 +23,21 @@ header {
   color: #e0e0e0;
 }
 
-.landing-description {
+.hamburger-list {
+  list-style: none;
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 0;
+}
 
+.hamburger-menu-item {
+  text-decoration: none;
+  border: 1px black solid;
+}
+
+.nav-icon {
+  height: 20px;
+  width: 20px;
 }
 
 main {
@@ -54,6 +67,10 @@ main {
   background-color: purple;
 }
 
+.main-image img {
+  height: 200px;
+}
+
 .data {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
@@ -76,4 +93,21 @@ main {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
   background-color: #2b626e;
+}
+
+.section-link-box a {
+  display: none;
+}
+
+.section-link-box:hover a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  border: 1px black solid;
+  height: 25%;
+  font-size: 2.5rem;
+}
+
+.section-link-box:hover p {
+  display: none;
 }

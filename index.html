@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <title>NSRDB</title>
     <link rel="stylesheet" href="normalize/normalize.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
     <nav role="navigation">
       <input placeholder="Search" aria-labelledby="search-bar"></input>
-      <p>hamburger icon</p>
+      <button class="showHamburger"><img src="images/menu.svg" alt="menu-icon" class="nav-icon"></button>
+      <button class="exitHamburger"><img src="images/cancel.svg" alt="exit-icon" class="nav-icon"></button>
     </nav>
-<!--     <div> 
-      <ul>    
-        <a href=""><li>Home</li></a>
-        <a href=""><li>About</li></a>
-        <a href=""><li>Data Sets</li></a>
-        <a href=""><li>Resources</li></a>
-        <a href=""><li>Contact</li></a>
+    <div class="hamburger"> 
+      <ul class="hamburger-list"> 
+        <a href="https://nsrdb.nrel.gov/"><li class ="hamburger-menu-item">Home</li></a>
+        <a href="https://nsrdb.nrel.gov/about"><li class ="hamburger-menu-item">About</li></a>
+        <a href="https://nsrdb.nrel.gov/data-sets"><li class ="hamburger-menu-item">Data Sets</li></a>
+        <a href="https://nsrdb.nrel.gov/resources"><li class ="hamburger-menu-item">Resources</li></a>
+        <a href="https://nsrdb.nrel.gov/contact"><li class ="hamburger-menu-item">Contact</li></a>
       </ul> 
-    </div> -->
+    </div>
     <header role="banner" class="header">
       <h1>NSRDB</h1>
       <h2>National Solar Radiation Database</h2>
@@ -34,10 +35,28 @@
       <p>Learn more <a href="">about the NSRDB,</a>  <a href="">access the data sets,</a> or <a href="">ask a question.</a></p>
     </section>
     <main role="main">
-      <article class="section-link-box about">About</article>
+      <article class="section-link-box about">
+        <p>About
+        </p>
+        <a href="">What is the NSRDB?</a>
+        <a href="">U.S. Data</a>
+        <a href="">International Data</a>
+        <a href="">TMY</a>
+      </article>
       <article class="section-link-box main-image"><img src="images/example-data.jpg" alt=""></article>
-      <article class="section-link-box data">Data Sets</article>
-      <article class="section-link-box resources">Resources</article>
+      <article class="section-link-box data">
+        <p>Data Sets</p>
+        <a href="">NSRDB Viewer</a>
+        <a href="">Download Instructions</a>
+        <a href="">API Instructions</a>
+        <a href="">Archives</a>
+      </article>
+      <article class="section-link-box resources">
+        <p>Resources</p>
+        <a href="">User Manuals</a>
+        <a href="">Links</a>
+        <a href="">Publications</a>
+      </article>
       <article class="section-link-box contact">Contact</article>
       <article class="section-link-box evaluation">Evaluation of the NSRBD</article>
     </main>
@@ -52,5 +71,10 @@
         </ul>
       </nav>
     </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="downloads/jquery-3.2.1.min.js"><\/script>')</script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
+
+<!-- menu icon <div>Icons made by <a href="https://www.flaticon.com/authors/eleonor-wang" title="Eleonor Wang">Eleonor Wang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
