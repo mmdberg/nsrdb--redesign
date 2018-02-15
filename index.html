@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <title>NSRDB</title>
     <link rel="stylesheet" href="normalize/normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
-    <nav role="navigation">
-      <input placeholder="Search" aria-labelledby="search-bar"></input>
-      <button class="showHamburger"><img src="images/menu.svg" alt="menu-icon" class="nav-icon"></button>
-      <button class="exitHamburger"><img src="images/cancel.svg" alt="exit-icon" class="nav-icon"></button>
+    <nav class="nav-bar" role="navigation">
+      <input class="nav__search" placeholder="Search" aria-labelledby="search-bar" type="search" results="5" ></input>
+      <button class="nav-bar__showHamburger nav-bar__button"></button>
+      <button class="nav-bar__exitHamburger nav-bar__button"></button>
     </nav>
     <div class="hamburger"> 
-      <ul class="hamburger-list"> 
-        <a href="https://nsrdb.nrel.gov/"><li class ="hamburger-menu-item">Home</li></a>
-        <a href="https://nsrdb.nrel.gov/about"><li class ="hamburger-menu-item">About</li></a>
-        <a href="https://nsrdb.nrel.gov/data-sets"><li class ="hamburger-menu-item">Data Sets</li></a>
-        <a href="https://nsrdb.nrel.gov/resources"><li class ="hamburger-menu-item">Resources</li></a>
-        <a href="https://nsrdb.nrel.gov/contact"><li class ="hamburger-menu-item">Contact</li></a>
+      <ul class="hamburger__list"> 
+        <a href="https://nsrdb.nrel.gov/"><li class ="hamburger__list__item">Home</li></a>
+        <a href="https://nsrdb.nrel.gov/about"><li class ="hamburger__list__item">About</li></a>
+        <a href="https://nsrdb.nrel.gov/data-sets"><li class ="hamburger__list__item">Data Sets</li></a>
+        <a href="https://nsrdb.nrel.gov/resources"><li class ="hamburger__list__item">Resources</li></a>
+        <a href="https://nsrdb.nrel.gov/contact"><li class ="hamburger__list__item">Contact</li></a>
       </ul> 
     </div>
     <header role="banner" class="header">
@@ -43,7 +43,7 @@
         <a href="">International Data</a>
         <a href="">TMY</a>
       </article>
-      <article class="section-link-box main-image"><img src="images/example-data.jpg" alt=""></article>
+      <article class="section-link-box main-image"><img src="" alt=""></article>
       <article class="section-link-box data">
         <p>Data Sets</p>
         <a href="">NSRDB Viewer</a>
@@ -61,13 +61,13 @@
       <article class="section-link-box evaluation">Evaluation of the NSRBD</article>
     </main>
     <footer role="contentInfo">
-      <p>NREL is a national laboratory of the <a href="">U.S. Department of Energy,</a> <a href="">Office of Energy Efficiency and Renewable Energy,</a> operated by the <a href="">Alliance for Sustainable Energy, LLC</a></p>
+      <p class="NREL-disclaimer">NREL is a national laboratory of the <a href="">U.S. Department of Energy,</a> <a href="">Office of Energy Efficiency and Renewable Energy,</a> operated by the <a href="">Alliance for Sustainable Energy, LLC</a></p>
       <nav>
         <ul>
-          <a href=""><li>Need Help?</li></a>
-          <a href=""><li>Security & Privacy</li></a>
-          <a href=""><li>Disclaimer</li></a>
-          <a href=""><li>NREL Home</li></a>
+          <a  class="disclaimer-links" href=""><li>Need Help?</li></a>
+          <a  class="disclaimer-links" href=""><li>Security & Privacy</li></a>
+          <a  class="disclaimer-links" href=""><li>Disclaimer</li></a>
+          <a  class="disclaimer-links" href=""><li>NREL Home</li></a>
         </ul>
       </nav>
     </footer>

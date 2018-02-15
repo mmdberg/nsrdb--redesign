@@ -1,24 +1,24 @@
 
 
 pageLoad();
-$('.showHamburger').click(showMenu);
-$('.exitHamburger').click(hideMenu);
+$('.nav-bar__showHamburger').click(showMenu);
+$('.nav-bar__exitHamburger').click(hideMenu);
 
 function pageLoad() {
- $('.exitHamburger').hide();
+ $('.nav-bar__exitHamburger').hide();
  $('.hamburger').hide();
 }
 
 function showMenu() {
   $('.hamburger').slideToggle('slow', function() {
-  $('.exitHamburger').show();
-  $('.showHamburger').hide();
+  $('.nav-bar__exitHamburger').show();
+  $('.nav-bar__showHamburger').hide();
   })
 }
 
 function hideMenu() {
   $('.hamburger').slideToggle('slow', function() {
-  $('.exitHamburger').hide();
-  $('.showHamburger').show();
+  $('.nav-bar__exitHamburger').hide();
+  $('.nav-bar__showHamburger').show();
   })
 }
