@@ -5,69 +5,63 @@
     <title>NSRDB</title>
     <link rel="stylesheet" href="normalize/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
   </head>
   <body>
-    <nav class="nav-bar" role="navigation">
-      <input class="nav__search" placeholder="Search" aria-labelledby="search-bar" type="search" results="5" ></input>
-      <button class="nav-bar__showHamburger nav-bar__button"></button>
-      <button class="nav-bar__exitHamburger nav-bar__button"></button>
-    </nav>
-    <div class="hamburger"> 
-      <ul class="hamburger__list"> 
-        <a href="https://nsrdb.nrel.gov/"><li class ="hamburger__list__item">Home</li></a>
-        <a href="https://nsrdb.nrel.gov/about"><li class ="hamburger__list__item">About</li></a>
-        <a href="https://nsrdb.nrel.gov/data-sets"><li class ="hamburger__list__item">Data Sets</li></a>
-        <a href="https://nsrdb.nrel.gov/resources"><li class ="hamburger__list__item">Resources</li></a>
-        <a href="https://nsrdb.nrel.gov/contact"><li class ="hamburger__list__item">Contact</li></a>
-      </ul> 
-    </div>
     <header role="banner" class="header">
-      <h1>NSRDB</h1>
-      <h2>National Solar Radiation Database</h2>
+<!--       <div class="header-image"> -->
+      <nav class="header__nav-bar" role="navigation">
+        <input class="header__nav__search" placeholder="Search" aria-labelledby="search-bar" type="search" results="5" ></input>
+        <div role="button" class="header__nav-bar__showHamburger header__nav-bar__button"></div>
+        <div role="button" class="header__nav-bar__exitHamburger header__nav-bar__button"></div>
+      </nav>
+      <div class="header__hamburger"> 
+        <ul class="header__hamburger__list"> 
+          <a href="https://nsrdb.nrel.gov/"><li class ="header__hamburger__list__item">Home</li></a>
+          <a href="https://nsrdb.nrel.gov/about"><li class ="header__hamburger__list__item">About</li></a>
+          <a href="https://nsrdb.nrel.gov/data-sets"><li class ="header__hamburger__list__item">Data Sets</li></a>
+          <a href="https://nsrdb.nrel.gov/resources"><li class ="header__hamburger__list__item">Resources</li></a>
+          <a href="https://nsrdb.nrel.gov/contact"><li class ="header__hamburger__list__item">Contact</li></a>
+        </ul> 
+      </div>
+        <h1>NSRDB</h1>
+        <h2>National Solar Radiation Database</h2>
+<!--       </div> -->
     </header>
     <section class="landing-description">
       <h3>Advancing the Science of Solar Data</h3>
       <p>The National Solar Radiation Database (NSRDB) is a serially complete collection of meteorological and solar irradiance data sets for the United States and a growing list of international locations. The data are publicly available at no cost to the user. The NSRDB provides foundational information to support U.S. Department of Energy programs, research, and the general public. Comparable products are also available from commercial vendors.</p>
-
-      <p>Supported by the U.S. Department of Energy’s <a href="">SunShot Initiative,</a> the NSRDB is a widely used and relied-upon resource. The database is managed and updated using the latest methods of research by a specialized team of forecasters at the National Renewable Energy Laboratory (NREL).</p>
-
-      <p>Learn more <a href="">about the NSRDB,</a>  <a href="">access the data sets,</a> or <a href="">ask a question.</a></p>
     </section>
     <main role="main">
-      <article class="section-link-box about">
-        <p>About
-        </p>
-        <a href="">What is the NSRDB?</a>
-        <a href="">U.S. Data</a>
-        <a href="">International Data</a>
-        <a href="">TMY</a>
+      <div class="stock-image main-box" >
+        <img src="images/heat-map.jpg" alt="">
+      </div>
+      <article class="description2 main-box">
+        <p>Supported by the U.S. Department of Energy’s <a href="">SunShot Initiative,</a> the NSRDB is a widely used and relied-upon resource. The database is managed and updated using the latest methods of research by a specialized team of forecasters at the National Renewable Energy Laboratory (NREL).</p>
       </article>
-      <article class="section-link-box main-image"><img src="" alt=""></article>
-      <article class="section-link-box data">
-        <p>Data Sets</p>
-        <a href="">NSRDB Viewer</a>
-        <a href="">Download Instructions</a>
-        <a href="">API Instructions</a>
-        <a href="">Archives</a>
+      <article class="section-link-box main-box">
+        <p class="about"><a href="">About</a></p>
+        <p class="data"><a href="">Data Sets</a></p>
+        <p class="resources"><a href="">Resources</a></p>
+        <p class="contact"><a href="">Contact</a></p>
       </article>
-      <article class="section-link-box resources">
-        <p>Resources</p>
-        <a href="">User Manuals</a>
-        <a href="">Links</a>
-        <a href="">Publications</a>
+      <div class="stock-image2 main-box">
+        <img src="images/heat-map.jpg" alt="">
+      </div>
+      <article class="evaluation-box main-box">
+        <p>Evaluation of the NSRDB</p>
+        <img src="" alt=""><a href="">NSRDB Viewer</a>
       </article>
-      <article class="section-link-box contact">Contact</article>
-      <article class="section-link-box evaluation">Evaluation of the NSRBD</article>
     </main>
-    <footer role="contentInfo">
-      <p class="NREL-disclaimer">NREL is a national laboratory of the <a href="">U.S. Department of Energy,</a> <a href="">Office of Energy Efficiency and Renewable Energy,</a> operated by the <a href="">Alliance for Sustainable Energy, LLC</a></p>
+    <footer class="disclaimer" role="contentInfo">
+      <p class="disclaimer__NREL-disclaimer">NREL is a national laboratory of the <a href="">U.S. Department of Energy,</a> <a href="">Office of Energy Efficiency and Renewable Energy,</a> operated by the <a href="">Alliance for Sustainable Energy, LLC</a></p>
       <nav>
         <ul>
-          <a  class="disclaimer-links" href=""><li>Need Help?</li></a>
-          <a  class="disclaimer-links" href=""><li>Security & Privacy</li></a>
-          <a  class="disclaimer-links" href=""><li>Disclaimer</li></a>
-          <a  class="disclaimer-links" href=""><li>NREL Home</li></a>
+          <a  class="disclaimer__links" href=""><li>Need Help?</li></a>
+          <a  class="disclaimer__links" href=""><li>Security & Privacy</li></a>
+          <a  class="disclaimer__links" href=""><li>Disclaimer</li></a>
+          <a  class="disclaimer__links" href=""><li>NREL Home</li></a>
         </ul>
       </nav>
     </footer>

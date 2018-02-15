@@ -1,24 +1,28 @@
 
 
 pageLoad();
-$('.nav-bar__showHamburger').click(showMenu);
-$('.nav-bar__exitHamburger').click(hideMenu);
+$('.header__nav-bar__showHamburger').click(showMenu);
+$('.header__nav-bar__exitHamburger').click(hideMenu);
 
 function pageLoad() {
- $('.nav-bar__exitHamburger').hide();
- $('.hamburger').hide();
+ $('.header__nav-bar__exitHamburger').hide();
+ $('.header__hamburger').hide();
 }
 
 function showMenu() {
-  $('.hamburger').slideToggle('slow', function() {
-  $('.nav-bar__exitHamburger').show();
-  $('.nav-bar__showHamburger').hide();
+  $('h1').hide();
+  $('h2').hide();
+  $('.header__hamburger').slideToggle('slow', function() {
+  $('.header__nav-bar__exitHamburger').show();
+  $('.header__nav-bar__showHamburger').hide();
   })
 }
 
 function hideMenu() {
-  $('.hamburger').slideToggle('slow', function() {
-  $('.nav-bar__exitHamburger').hide();
-  $('.nav-bar__showHamburger').show();
+  $('.header__hamburger').slideToggle('slow', function() {
+  $('.header__nav-bar__exitHamburger').hide();
+  $('.header__nav-bar__showHamburger').show();
+  $('h1').show();
+  $('h2').show();
   })
 }
