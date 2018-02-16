@@ -20,9 +20,9 @@ function showMenu() {
 
 function hideMenu() {
   $('.header__hamburger').slideToggle('slow', function() {
-  $('.header__nav-bar__exitHamburger').hide();
-  $('.header__nav-bar__showHamburger').show();
   $('h1').show();
   $('h2').show();
+  $('.header__nav-bar__exitHamburger').hide();
+  $('.header__nav-bar__showHamburger').show();
   })
 }
