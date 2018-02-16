@@ -1,0 +1,37 @@
+footer {
+  background-color: #696969;
+  color: #e0e0e0;
+}
+
+.disclaimer__NREL-disclaimer {
+  font-size: 0.5rem;
+  padding: .5rem;
+  margin-right: 0;
+  width: 95%;
+  padding-bottom: 0;
+}
+
+.disclaimer__links li {
+  text-align: center;
+  color: #e0e0e0;
+  font-size: 0.5rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer ul {
+  padding: 0;
+  padding-left: 6px;
+}
+
+.disclaimer__links,
+footer a {
+  text-decoration: none;
+  color: #e0e0e0;
+  font-size: 0.5rem;
+}
+
+.disclaimer__links:hover,
+footer a:hover {
+  text-decoration: underline;
+}
