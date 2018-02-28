@@ -5,17 +5,16 @@
     <title>NSRDB</title>
     <link rel="stylesheet" href="normalize/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Spectral+SC:600" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   </head>
   <body>
     <header role="banner" class="header">
       <h2>NATIONAL SOLAR RADIATION DATABASE</h2>
       <ul class="header__nav">
-        <li><a href="https://nsrdb.nrel.gov/about">About</a></li>
-        <li><a href="https://nsrdb.nrel.gov/data-sets">Data Sets</a></li>
-        <li><a href="https://nsrdb.nrel.gov/resources"></a>Resources</li>
-        <li><a href="https://nsrdb.nrel.gov/contact"></a>Contact</li>
+        <li><a class="header__nav__link" href="https://nsrdb.nrel.gov/about">About</a></li>
+        <li><a class="header__nav__link" href="https://nsrdb.nrel.gov/data-sets">Data Sets</a></li>
+        <li><a class="header__nav__link" href="https://nsrdb.nrel.gov/resources">Resources</a></li>
+        <li><a class="header__nav__link" href="https://nsrdb.nrel.gov/contact">Contact</a></li>
       </ul>
       <div class="header__search">
         <input type="text" class="header__search__input">
@@ -23,8 +22,29 @@
       </div>
     </header>
     <main role="main">
-      <h2></h2>
+      <section class="main__subtitle">
+        <h3>ADVANCING THE SCIENCE OF SOLAR DATA</h3>
+        <ul>
+          <li><a class="main__subtitle__link" href="">What is NSRDB?</a></li>
+          <li><a class="main__subtitle__link" href="">Sunshot Initiative</a></li>
+          <li><a class="main__subtitle__link" href="">Evaluation</a></li>
+        </ul>
+      </section>
+      <section class="main__collage">
+        <img class="main__collage__image main-image1" src="./images/solar-panel.jpeg" alt="">
+        <img class="main__collage__image main-image2" src="./images/solar-flare.jpeg" alt="">
+        <img class="main__collage__image main-image3" src="./images/wind-energy.jpeg" alt="">
+        <img class="main__collage__image main-image4" src="./images/nyc-night.jpg" alt="">
+      </section>
     </main>
+
+
+
+
+
+
+
+
     <footer class="disclaimer" role="contentInfo">
       <p class="disclaimer__NREL-disclaimer">NREL is a national laboratory of the <a href="">U.S. Department of Energy,</a> <a href="">Office of Energy Efficiency and Renewable Energy,</a> operated by the <a href="">Alliance for Sustainable Energy, LLC</a></p>
       <ul>
