@@ -1,5 +1,6 @@
 @import "header.css";
 @import "footer.css";
+@import "header-landing-page.css"
 
 *, 
 *:before,
@@ -8,13 +9,13 @@
 }
 
 * {
-  font-family: 'Nanum Myeongjo', serif;
-  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;;
+  font-size: 1em;
   margin: 0;
+  letter-spacing: 2px;
 }
 
 body {
   font-size: 62.5%;
   background-color: #e5e5e5;
-  color: black;
 }
