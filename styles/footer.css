@@ -1,14 +1,21 @@
 footer {
   background-color: #696969;
   color: #e0e0e0;
+  text-align: center;
+  height: 80px;
 }
 
 .disclaimer__NREL-disclaimer {
   font-size: 0.5rem;
-  padding: .5rem;
-  margin-right: 0;
+  padding: 1rem;
+/*  margin-right: 0;*/
   width: 95%;
   padding-bottom: 0;
+  margin: 0;
+}
+
+a {
+  letter-spacing: 0;
 }
 
 .disclaimer__links li {
