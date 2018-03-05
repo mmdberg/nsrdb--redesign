@@ -12,10 +12,12 @@ footer {
   width: 95%;
   padding-bottom: 0;
   margin: 0;
+  letter-spacing: 0;
 }
 
 a {
   letter-spacing: 0;
+  margin: 0;
 }
 
 .disclaimer__links li {
