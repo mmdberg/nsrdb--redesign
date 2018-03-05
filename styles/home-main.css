@@ -17,6 +17,7 @@
 body {
   background-color: #e5e5e5;
   color: black;
+  min-width: 350px;
 }
 
 /*HEADER*/
@@ -46,8 +47,12 @@ a {
   text-decoration: none;
 }
 
-p {
+p,
+span {
   letter-spacing: 0;
+}
+
+p {
   font-size: 14px;
   margin: 20px;
 }
@@ -129,6 +134,15 @@ h3 {
 .main__subtitle__link:hover {
   border: 5px #696969 solid;
   font-weight: bold;
+}
+
+#read-more-text__what-is,
+#read-more-text__sunshot {
+  display: inline
+}
+
+.main__button {
+  display: none;
 }
 
 /*TOP IMAGE SECTION */
@@ -382,7 +396,7 @@ h3 {
   }
 
   .main__sunshot {
-    height: 250px;
+    height: 240px;
     padding: 40px 15%;
   }
 
@@ -395,6 +409,24 @@ h3 {
   }
 }
 
-@media screen and (max-width: 440px) {
-
+@media screen and (max-width: 450px) {
+  .main__button {
+    display: block;
+    margin: auto;
   }
+
+  .main__subtitle h3 {
+    margin: 0 10px 18px 10px;
+  }
+
+  #read-more-text__what-is,
+  #read-more-text__sunshot {
+    display: none
+  }
+
+  .main__evaluation {
+    padding: 33px 15%;
+    height: 210px;
+}
+
+}

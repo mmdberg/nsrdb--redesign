@@ -1,5 +1,6 @@
 @import "landing-header.css";
 @import "main.css";
+@import "footer.css";
 
 /*description about*/
 
@@ -9,8 +10,6 @@
   margin:  10px auto;
   margin-bottom: 20px; 
 }
-
-
 
 h3 {
   border-bottom: 2px #69696994 solid;

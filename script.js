@@ -1,4 +1,30 @@
+$('#what-is__toggle').click(readWhatIsToggle);
+function readWhatIsToggle() {
+  var elem = $('#what-is__toggle').text();
+  if(elem === "Read More"){
+    $('#what-is__toggle').text("Read Less");
+    $('#read-more-text__what-is').slideDown()
+    $('.main__what-is').css('height', '427px')
+  } else {
+    $('#what-is__toggle').text("Read More");
+    $('#read-more-text__what-is').slideUp()
+    $('.main__what-is').css('height', '310px')
+  }
+}
 
+$('#sunshot__toggle').click(readSunshotToggle);
+function readSunshotToggle() {
+  var elem = $('#sunshot__toggle').text();
+  if(elem === "Read More"){
+    $('#sunshot__toggle').text("Read Less");
+    $('#read-more-text__sunshot').slideDown()
+    $('.main__sunshot').css('height', '345px')
+  } else {
+    $('#sunshot__toggle').text("Read More");
+    $('#read-more-text__sunshot').slideUp()
+    $('.main__sunshot').css('height', '240px')
+  }
+}
 
 
 // pageLoad();
