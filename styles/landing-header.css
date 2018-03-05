@@ -70,11 +70,21 @@ a:hover {
 /*header*/
 
 .header {
+  border-top: 2px black solid;
   height: 200px;
-
+  width: 100%;
+  background: linear-gradient(
+    rgba(212, 212, 212, 0.2),
+    rgba(194, 192, 192, 0.5)),
+    url('../images/earth-night.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #e0e0e0;
+  text-align: center;
 }
 
 .header__h1 {
+  margin-top: 1em;
   padding-top: 2em;
   color: #fff;
   font-size: 1.4em;
@@ -84,13 +94,13 @@ a:hover {
 
 .header__h2 {
   border: 2px #fff solid;
-  margin: 1.5em auto;
+  margin: 3em auto;
   width: 80px;
   height: 30px;
-  padding-top: 1em;
+  padding-top: 1.5em;
   padding-bottom: 5px;
   color: #fff;
-  font-size: 1em;
+  font-size: 1.3em;
   font-weight: bold;
   letter-spacing: 2px;
   text-align: center;
