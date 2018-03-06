@@ -47,7 +47,7 @@ h3 {
   grid-template-columns: repeat(4.5, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 15px;
-  height: 400px;
+  height: 300px;
   width: 75%;
   margin: 25px auto;
 }
