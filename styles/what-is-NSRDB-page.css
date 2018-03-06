@@ -161,7 +161,7 @@ p {
   width: 90%;
 }
 
-.photo-footer {
+/*.photo-footer {
   position: relative;
   top: 165px;
   display: grid;
@@ -202,7 +202,7 @@ p {
 .footer-img-6 {
   grid-column: 6 / 7;
   grid-row: 1 / 2;
-}
+}*/
 
 
 

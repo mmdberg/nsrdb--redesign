@@ -4,11 +4,11 @@ function readWhatIsToggle() {
   if(elem === "Read More"){
     $('#what-is__toggle').text("Read Less");
     $('#read-more-text__what-is').slideDown()
-    $('.main__what-is').css('height', '427px')
+    $('.main__what-is').css('height', '487px')
   } else {
     $('#what-is__toggle').text("Read More");
     $('#read-more-text__what-is').slideUp()
-    $('.main__what-is').css('height', '310px')
+    $('.main__what-is').css('height', '340px')
   }
 }
 
@@ -18,11 +18,11 @@ function readSunshotToggle() {
   if(elem === "Read More"){
     $('#sunshot__toggle').text("Read Less");
     $('#read-more-text__sunshot').slideDown()
-    $('.main__sunshot').css('height', '345px')
+    $('.main__sunshot').css('height', '445px')
   } else {
     $('#sunshot__toggle').text("Read More");
     $('#read-more-text__sunshot').slideUp()
-    $('.main__sunshot').css('height', '240px')
+    $('.main__sunshot').css('height', '270px')
   }
 }
 
