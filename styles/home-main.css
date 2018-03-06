@@ -47,10 +47,10 @@ a {
   text-decoration: none;
 }
 
-p,
+/*p,
 span {
   letter-spacing: 0;
-}
+}*/
 
 p {
   font-size: 14px;
@@ -149,20 +149,18 @@ h3 {
 
 .main__collage {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4.5, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 15px;
   height: 300px;
+  width: 75%;
+  margin: 15px auto;
 }
 
 .main__collage__image {
   height: 100%;
   width: 100%;
   opacity: .7;
-}
-
-.main__collage__image:hover {
-  opacity: 1;
 }
 
 .main-image1 {
@@ -188,9 +186,9 @@ h3 {
 /*WHAT IS SECTION*/
 
 .main__what-is {
-  height: 220px;
+  height: 260px;
   text-align: center;
-  padding: 53px 15%;
+  padding: 53px 20%;
 }
 
 .main__what-is p {
@@ -215,26 +213,28 @@ h3 {
 /*SUNSHOT INIATIVE*/
 .main__sunshot {
   background: linear-gradient(
-                rgba(212, 212, 212, 0.83),
-                rgba(194, 192, 192, 0.71)),
+                rgba(212, 212, 212, 0.53),
+                rgba(194, 192, 192, 0.51)),
                 url('../images/panels.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  height: 200px;
-  padding: 50px 15%;
+  height: 230px;
+  padding: 50px 20%;
   background-position: bottom;
 }
 
 .main__sunshot p {
-/*  text-shadow: 2px 2px black;*/
+    background-color: white;
+    opacity: 0.5;
+    padding: 10px;
 }
 
 /*EVALUATION*/
 .main__evaluation {
   height: 200px;
   text-align: center;
-  padding: 53px 15%;
+  padding: 53px 20%;
 }
 
 
@@ -254,7 +254,7 @@ h3 {
 @media screen and (max-width: 845px) {
 
   .main__what-is {
-    height: 250px;
+    height: 300px;
   }
 
   .header {
@@ -263,6 +263,10 @@ h3 {
 
   .header__search__input {
     height: 1.6em;
+  }
+
+  .main__sunshot {
+    height: 287px;
   }
 
 }
@@ -278,12 +282,14 @@ h3 {
     margin: 40px 30px;
   }
 
+
+
   .main__collage {
     grid-template-columns: repeat(3, 1fr);
-/*    grid-template-rows: repeat(3, 1fr);*/
+    width: 100%;
     grid-gap: 20px;
     height: 300px;
-    margin: 0 35px;
+/*    margin: 0;*/
   }
 
   .main-image1 {
@@ -312,7 +318,7 @@ h3 {
   }
 
   .main__sunshot {
-    height: 215px;
+    height: 300px;
   }
 
 }
@@ -323,11 +329,11 @@ h3 {
   }
   
   .main__what-is {
-    height: 290px;
+    height: 322px;
   }
 
   .main__sunshot {
-    height: 235px;
+    height: 290px;
     padding: 40px 15%;
   }
 
@@ -392,11 +398,11 @@ h3 {
   }
 
   .main__what-is {
-    height: 310px;
+    height: 370px;
   }
 
   .main__sunshot {
-    height: 240px;
+    height: 350px;
     padding: 40px 15%;
   }
 
@@ -427,6 +433,11 @@ h3 {
   .main__evaluation {
     padding: 33px 15%;
     height: 210px;
-}
+  }
+
+  .main__sunshot {
+    height: 300px;
+    padding: 40px 15%;
+  }
 
 }
