@@ -131,7 +131,7 @@ p {
   background-size: cover;
   background-position: bottom;
   text-align: center;
-  height: 300px;
+  height: 100%;
 }
 
 .contributing h3 {
@@ -141,19 +141,17 @@ p {
 }
 
 .contributing p {
-  width: 39%;
+  width: 42%;
 }
 
 .drop-down__content {
-  position: absolute;
-  top: 41%;
-  left: 30%;
   background-color: #f1f1f1;
   width: 40%;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
   font-size: 1.3em;
+  margin: 15px auto;
+  padding: 20px;
 }
 
 .drop-down__content li {
