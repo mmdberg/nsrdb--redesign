@@ -55,6 +55,7 @@ span {
 p {
   font-size: 14px;
   margin: 20px;
+  font-family: 'PT Sans', sans-serif;
 }
 
 :target h3 {
