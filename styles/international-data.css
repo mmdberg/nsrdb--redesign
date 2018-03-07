@@ -1,0 +1,163 @@
+@import "landing-header.css";
+@import "main.css";
+@import "footer.css";
+
+p a {
+  margin-right: 3px;
+  font-size: 1em;
+}
+
+table {
+  width: 70%;
+  margin: 25px auto;
+  background-color: #fff;
+}
+
+th {
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 5px;
+  width: 30%;
+  background-color: #C6E0E1;
+  border-bottom: 2px #1a8e92 solid
+}
+
+td {
+  font-size: 1.2em;
+  padding: 5px;
+  width: 30%;
+  vertical-align: middle;
+}
+
+caption {
+  width: 55%;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 20px auto;
+  text-align: left;
+}
+
+tr {
+  padding: 3px;
+  margin: 5px;
+}
+
+.international-list {
+  text-align: center;
+}
+
+.international-list__h3 {
+  margin: 20px auto;
+  width: 35%;
+}
+
+article {
+  display: inline-block;
+  position: relative;
+  height: 400px;
+  margin: 10px;
+  overflow: hidden;
+  width: 30%;
+  vertical-align: top;
+  background: linear-gradient(
+    rgba(212, 212, 212, 0.2),
+    rgba(194, 192, 192, 0.5)),
+    url('../images/andrew-neel.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+article p {
+  width: 90%;
+}
+
+h4 {
+  text-align: -webkit-center;
+  height: 30px;
+  background-color: #F1F1F1;
+  font-size: 2em;
+  padding: 0;
+  padding-top: 18px;
+}
+
+article h1 {
+  font-size: 2em;
+  color: #fff;
+  margin: 20px;
+}
+
+.international-list--header p {
+  position: absolute;
+  top: 170px;
+  right: 10%;
+  width: 80%;
+  padding: 5px;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #fff;
+  
+}
+
+
+/**/
+
+.hide {
+    position: absolute;
+    bottom: -800px;
+    overflow: hidden;
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+.show {
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    max-height: 1000px;
+    background-color: #AAA7A8;
+    overflow: hidden;
+}
+
+.SUNY-data__section h3 {
+  width: 28%;
+}
+
+.ref {
+  background: linear-gradient(
+    rgba(212, 212, 212, 0.2),
+    rgba(194, 192, 192, 0.5)),
+    url('../images/andreas-gucklhorn.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ref h3 {
+  width: 23%;
+}
+
+.ref ul {
+  margin: 30px auto 0 auto;
+  width: 55%;
+  padding: 10px;
+  background-color: #e5e5e5c2;
+}
+
+.ref li {
+  font-size: 1.1em;
+}
+

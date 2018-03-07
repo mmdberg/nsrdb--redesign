@@ -1,3 +1,12 @@
+$('.content-container').hover(function(){
+  console.log('hello')
+    $('div').toggleClass('show').toggleClass('hide');
+    return false;
+});
+
+
+
+
 $('#what-is__toggle').click(readWhatIsToggle);
 function readWhatIsToggle() {
   var elem = $('#what-is__toggle').text();
