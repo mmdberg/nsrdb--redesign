@@ -19,3 +19,23 @@ body {
   font-size: 62.5%;
   background-color: #e5e5e5;
 }
+
+
+h3 {
+  border-bottom: 2px #69696994 solid;
+  font-size: 1.5em;
+  margin: 20px auto;
+  padding: 10px;
+  width: 15%;
+  text-align: center;
+}
+
+p {
+  margin: 25px auto;
+  width: 45%;
+  font-size: 1.3em;
+  line-height: 150%;
+  letter-spacing: none;
+  text-align: left;
+  white-space: pre-line;
+}

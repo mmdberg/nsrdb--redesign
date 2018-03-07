@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>International Data</title>
+  <link rel="stylesheet" href="../styles/international-data.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="nav">
+        <ul>
+          <li class="home-page">
+            <a href="">HOME</a>
+          </li>
+          <li class="about-page">
+            <a id="header__nav--active"   href="">ABOUT</a>
+          </li>
+          <li class="data-set-page">
+            <a href="">DATASET</a>
+          </li>
+          <li class="resource-page">
+            <a href="">RESOURCES</a>
+          </li>
+          <li class="contact-page">
+            <a href="">CONTACT</a>
+          </li>
+        </ul>
+        <div class="search-contanier">
+          <!-- <input id="search-bar" type="search" placeholder="Search...">
+          <label for="search-bar"> -->
+            <span><img  id="search__magnifying-img" src="../images/icons/magnifying-glass.svg" alt="magnifying glass image" /></span>
+          </label>
+        </div>
+      </nav>
+    <header class="header"> 
+      <h1 class="header__h1">NATIONAL  SOLAR RADIATION DATABASE</h1>
+      <h2 class="header__h2">ABOUT</h2>
+    </header>
+    <main>
+      <section class="international-description">
+        <h3 class="international-description__h3"> INTERNATIONAL DATA</h3>
+        <p>The NSRDB contains not only data for the United States, but also for a growing list of countries in different parts of the world. </p>
+      </section>
+      <ul class="main__links about-page__main-links">
+        <li>
+          <a href=""> WHAT IS NSRDB?</a>
+        </li>
+        <li>
+          <a href="">U.S DATA</a>
+
+        </li>
+        <li>
+          <a href="">TYPICAL METEOROLOGICAL YEAR</a>
+        </li> 
+      </ul>
+      <section class="available-data__section">
+        <h3> AVAILABLE DATA</h3>
+        <p>The data available in the NSRDB for various international countries was developed using one of two different models: the Physical Solar Model (PSM) that is used for the latest version of the U.S. NSRDB data, and the SUNY Semi-Empirical model, which is <a href="">described in detail below.</a> A summary of these international data sets is provided in the table below.</p>
+      </section>
+      <section class="international-data__section">
+        <table>
+          <caption>Summary of these international data sets</caption>
+          <thead>
+            <tr>
+              <th>Region</th>
+              <th>Data Set Name/Model Used</th>
+              <th>Temporal Resolution</th>
+              <th>Spatial Resolution</th>
+              <th>Years Covered</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>South Asia</td>
+              <td>SUNY</td>
+              <td>1 hour</td>
+              <td>10 x 10 km</td>
+              <td>2000-2014</td>
+            </tr>
+            <tr>
+              <td>Mexico/Central America</td>
+              <td>PSM</td>
+              <td>1/2 hour</td>
+              <td>4 x 4 km</td>
+              <td>1998-2014</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="international-list">
+        <h3 class="international-list__h3"> AVAILABLE DATA IN INTERNATIONAL COUNTRIES</h3>
+        <article class="content-container">
+          <div class="international-list--header show">
+            <h1>SUNY SEMI-EMPIRICAL MODEL</h1>
+            <p>Data Available International</p>
+          </div>
+          
+          <div class="hide">
+            <h4>SUNY</h3>
+            <p>India, Bangladesh, Bhutan, Nepal, Sri Lanka, and parts of Pakistan and Afghanistan</p>
+          </div>
+        </article>
+        <article class="content-container">
+          <div class="international-list--header show">
+          <h1>PHYSICAL SOLAR MODEL</h1>
+          <p>Data Available International</p>
+          </div>
+          <div class="hide">
+            <h4>PSM</h3>
+            <p>Anguilla, Antigua and Barbuda, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Brazil, British Virgin Islands, Canada, Cape Verde, Cayman Island, Chile, Colombia, Costa Rica, Cuba, Curaçao, Dominica, Dominican Republic, Ecuador, El Salvador, Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Kiribati, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Barthélemy, Saint Lucia, Sint Maarten, St Vincent and the Grenadines, St-Martin, St. Kitts and Nevis, St. Pierre and Miquelon, Suriname, Trinidad and Tobago, Turks and Caicos Islands, U.S. Minor Outlying Islands, U.S. Virgin Islands, and Venezuela</p>
+          </div>
+        </article>
+      </section>
+      <section class="SUNY-data__section">
+        <h3>About the SUNY Semi-Empirical Model</h3>
+        <p>The NSRDB SUNY Semi-Empirical Model data was developed using the semi-empirical satellite model developed by Perez et al. [1, 2, 3] as part of the India-U.S. Energy Dialogue. These data were developed in collaboration with the State University of New York at Albany (SUNY Albany) and Solar Consulting Services.
+
+        The SUNY Semi-Empirical Model converts a “cloud-index” retrieved from the satellite visible channel into a “clearness index.” The “clearness index” is used to scale output from the SOLIS clear sky model to derive a GHI. The GHI is then used in the DIRINT model to calculate the DNI and DHI.
+
+        For the present application, the input to the model consists of:
+
+        •Hourly visible channel frames from the geostationary satellite covering the Indian subcontinent; for the 2002-2007 period, this satellite is Meteosat 5, and for the 2007-2012 period, the satellite is Meteosat 7. The satellite data have a ground resolution of 0.1 by 0.1 degrees, which is approximately 10 km x 10 km for the considered region.
+
+        •Ground elevation
+
+        •Climatological precipitable water and ozone retained from our previous model simulations [4]
+
+        •Monthly aerosol optical depth (AOD): The current simulation uses month-specific AOD prepared by Solar Consulting Services [5] and derived from an ensemble of sources including satellite remote sensing, transport models, and ground measurements.
+        </p>
+      </section>
+      <section class="ref">
+        <ul>
+        <h3>REFERENCES</h3>
+          <li>1. Perez R., P. Ineichen, K. Moore, M. Kmiecik, C. Chain, R. George and F. Vignola, (2002): A New Operational Satellite-to-Irradiance Model. Solar Energy 73, 5, pp. 307-317.</li>
+          <li>2. Perez R., P. Ineichen, M. Kmiecik, K. Moore, R. George and D. Renné, (2004): Producing satellite-derived irradiances in complex arid terrain. Solar Energy 77, 4, 363-370</li>
+          <li>3. Perez, R., T. Cebecauer, M. Suri, (2013): Semi-Empirical Satellite Models, in: Solar Resource Assessment and Forecasting (Editor Jan Kleissl), Elsevier, 2013</li>
+          <li>4. Perez R., & J. Schlemmer, (2010): FINAL REPORT NREL Contract No.  AEK88827001 Modification 3</li>
+          <li>5. Gueymard, C., (2013): Personal Communication</li>
+        </ul>
+      </section>
+    </main>
+    <footer class="disclaimer" role="contentInfo">
+      <p class="disclaimer__NREL-disclaimer">
+        NREL is a national laboratory of the <a href="http://energy.gov/" target="_blank">U.S. Department of Energy,</a> <a href="http://energy.gov/eere/office-energy-efficiency-renewable-energy" target="_blank">Office of Energy Efficiency and Renewable Energy,</a> operated by the <a href="http://www.allianceforsustainableenergy.org/" target="_blank">Alliance for Sustainable Energy, LLC</a>
+      </p>
+      <ul>
+        <li><a  class="disclaimer__links" href="https://nsrdb.nrel.gov/contact">Need Help? |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/security.html"> Security & Privacy |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/disclaimer.html"> Disclaimer |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/"> NREL Home</a></li>
+      </ul>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="downloads/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="../script.js"></script>
+  </body>
+</html>

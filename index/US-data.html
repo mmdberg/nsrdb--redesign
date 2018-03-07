@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>US Data</title>
+  <link rel="stylesheet" href="../styles/US-data.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="nav">
+        <ul>
+          <li class="home-page">
+            <a href="">HOME</a>
+          </li>
+          <li class="about-page">
+            <a id="header__nav--active"   href="">ABOUT</a>
+          </li>
+          <li class="data-set-page">
+            <a href="">DATASET</a>
+          </li>
+          <li class="resource-page">
+            <a href="">RESOURCES</a>
+          </li>
+          <li class="contact-page">
+            <a href="">CONTACT</a>
+          </li>
+        </ul>
+        <div class="search-contanier">
+          <!-- <input id="search-bar" type="search" placeholder="Search...">
+          <label for="search-bar"> -->
+            <span><img  id="search__magnifying-img" src="../images/icons/magnifying-glass.svg" alt="magnifying glass image" /></span>
+          </label>
+        </div>
+      </nav>
+    <header class="header"> 
+      <h1 class="header__h1">NATIONAL  SOLAR RADIATION DATABASE</h1>
+      <h2 class="header__h2">ABOUT</h2>
+    </header>
+    <main>
+      <section class="about-description">
+        <h3 class="about-description__h3">U.S. DATA</h3>
+        <p>NREL has provided solar resource data for the United States through the NRSDB for more than 25 years. We have also recently begun to collect data from a growing number of international locations, including India; to learn more, visit the NSRDB International page. </p>
+      </section>
+      <ul class="main__links about-page__main-links">
+        <li>
+          <a href=""> WHAT IS NSRDB?</a>
+        </li>
+        <li>
+          <a href="">INTERNATIONAL DATA</a>
+
+        </li>
+        <li>
+          <a href="">TYPICAL METEOROLOGICAL YEAR</a>
+        </li> 
+      </ul>
+      <section class="available-versions__section">
+        <div class="drop-shadow-text-box">
+          <h3>AVAILABLE VERSIONS</h3>
+          <p>
+            There have been substantial improvements in solar data collection and modeling technologies throughout the 25 years of existence of the NSRDB. As better technologies became available, NREL migrated to these new technologies and updated the NSRDB on an ongoing basis. NREL implemented major changes to the original database in 1991, 2005, and 2012.
+
+            These major changes have been referred to as "updates." In the most recent update, the NSRDB changed from using mainly empirical modeling and data collected at stations to using a physics-based modeling approach that provides solar radiation data for the entire United States in gridded segments (4 km x 4 km) using geostationary satellites.
+
+            With this shift to physics-based, gridded data collection, the version names were changed to distinguish them. The NSRDB updates that collected data from stations are now Meteorological Statistical Models (MTS) 1, 2, and 3. The most recent update that used the physics-based approach is now called the Physical Solar Model (PSM). Read more about the current version below.
+          </p>
+        </div>
+      </section>
+      <section class="current-version__section">
+        <table class="current-version__table">
+          <caption>Below is an overview of the NSRDB's versions.
+          <br/> 
+          For detailed information about each, click on the links.</caption>
+          <thead>
+            <tr>
+              <th>New Version Name</th>
+              <th>Prior Version Name</th>
+              <th>Temporal Resolution</th>
+              <th>Spatial Resolution</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="PSM-section">
+              <th>Physical Solar Model (PSM)</th>
+              <td>1998-2014 Update</td>
+              <td>1/2 hour</td>
+              <td>4 x 4 km</td>
+              <td class="td__desc">PSM uses a two-step process where cloud properties are retrieved using the adapted PATMOS-X model, which are then used as inputs to REST2 for clear sky and FARMS for cloudy sky radiation calculations. REST2 calculates both DNI and GHI. FARMS calculates GHI, and the DISC model is then used to calculate DNI. Aerosol properties are estimated using MODIS, MISR, and AERONET products. Water vapor is obtained from NASA MERRA. Additional meteorological parameters are also derived from MERRA.
+
+              Note: On March 21, 2016, the PSM version number changed from V2.0 to V2.0.1 because relative humidity and dew point data sets were corrected.</td>
+            </tr>
+            <tr class="MTS3-section">
+              <th>Meteorological Statistical Model 3 (MTS3)</th>
+              <td>1991-2010 Update</td>
+              <td>1 hour</td>
+              <td>1,454 stations</td>
+              <td class="td__desc">  
+                Solar data was obtained through the METSTAT (METeorological STATistical) model, and the meteorological data set was obtained from the National Climatic Data Center (NCDC) Integrated Surface Database (formerly Integrated Surface Hourly, ISH). <a href="https://www.nrel.gov/docs/fy12osti/54824.pdf">http://www.nrel.gov/docs/fy12osti/54824.pdf</a>
+              </td>
+            </tr>
+            <tr class="MTS2-section">
+              <th>Meteorological Statistical Model 2 (MTS2)</th>
+              <td>1991-2005 Update</td>
+              <td>1 hour</td>
+              <td>1,454 stations</td>
+              <td class="td__desc">  
+                Solar data was obtained through the METSTAT and the State University of New York (SUNY) Empirical model (measured <1%) and the meteorological data set was obtained from the NCDC ISH database. 
+                <a href="https://www.nrel.gov/docs/fy07osti/41364.pdf">http://www.nrel.gov/docs/fy07osti/41364.pdf</a>
+              </td>
+            </tr>
+            <tr class="MTS1-section">
+              <th>Meteorological Statistical Model 1 (MTS1)</th>
+              <td>(Original Version) 1961-1990</td>
+              <td>1 hour</td>
+              <td>239 stations</td>
+              <td class="td__desc">  
+                Solar data was obtained through METSTAT (modeled 93% and measured 7%), and the meteorological dataset was obtained from the NCDC for Surface Airways hourly data.  
+                <a href="http://rredc.nrel.gov/solar/pubs/NSRDB/">http://rredc.nrel.gov/solar/pubs/NSRDB</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="physical-solar-model__section">
+        <div class="drop-shadow-text-box">
+          <h3>ABOUT THE PHYSICAL SOLAR MODEL</h3>
+          <p>The current version of the NSRDB (v2.0.0) was developed using the Physical Solar Model (PSM), and offers users the latest available data (1998–2014). NSRDB comprises 30-minute solar and meteorological data for approximately 2 million 0.038-degree latitude by 0.038-degree longitude surface pixels (nominally 4 km2). The area covered is bordered by longitudes 25° W on the east and 175° W on the west, and by latitudes -20° S on the south and 60° N on the north.
+
+          The PSM was developed by NREL in collaboration with the University of Wisconsin, the National Oceanic and Atmospheric Administration (NOAA), and Solar Consulting Services. PSM uses cloud properties from the satellite retrievals and then uses those properties to calculate surface radiation. The cloud properties in PSM are generated using the AVHRR Pathfinder Atmospheres-Extended (PATMOS-x) algorithms that have been adapted for use with GOES data. NREL developed the all-sky radiation model for solar applications (FARMS) that incorporates the cloud properties from PATMOS-x, aerosol optical depth (AOD), and precipitable water vapor (PWV) from ancillary sources to compute GHI in cloudy scenes. The DNI for cloudy scenes is then computed using the DISC model. The REST2 model is used to estimate DNI and GHI under clear sky conditions.  The meteorological data set associated with the NSRDB data was derived from NASA Modern Era-Retrospective Analysis (MERRA) datasets. MERRA has varying temporal and spatial resolution depending on the variable; however, the variables used in the NSRDB are hourly at 40 km2 spatial resolution, which is then interpolated to match the 4 km by 4 km grid and half-hourly temporal resolution.</p>
+          <p>Note: On March 21, 2016, the PSM version number changed from V2.0 to V2.0.1 because relative humidity and dew point data sets were corrected.</p>
+        </div>
+      </section>
+      <section class="data__table">
+        <table class="data__table-1">
+          <caption>Descriptions of the variables included in the 4-km by 4-km NSRDB data are included in the tables below.</caption>
+          <thead>
+            <tr>
+              <th>Element</th>
+              <th>Unit or Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Source</td>
+              <td>NSRDB</td>
+            </tr>
+            <tr>
+              <td>Location ID</td>
+              <td>Site identifier</td>
+            </tr>
+            <tr>
+              <td>City</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>State</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Country</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Latitude</td>
+              <td>Decimal degree</td>
+            </tr>
+            <tr>
+              <td>Longitude</td>
+              <td>Decimal degree</td>
+            </tr>
+            <tr>
+              <td>Time Zone</td>
+              <td>Greenwich time zone, 0</td>
+            </tr>
+            <tr>
+              <td>Elevation</td>
+              <td>Meter</td>
+            </tr>
+            <tr>
+              <td>Local Time Zone</td>
+              <td>Hours from Greenwich, negative west</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="data__table-2">
+          <thead>
+            <tr>
+              <th>Element</th>
+              <th>Unit</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Clearsky DHI</td>
+              <td>Watt per square meter</td>
+              <td>- Modeled solar radiation on a horizontal surface received from the sky excluding the solar disk.
+              - This is assuming clear sky condition</td>
+            </tr>
+            <tr>
+              <td>Clearsky DNI</td>
+              <td>Watt per square meter</td>
+              <td>- Modeled solar radiation obtained from the direction of the sun.
+              - This is assuming clear sky condition</td>
+            </tr>
+            <tr>
+              <td>Clearsky GHI</td>
+              <td>Watt per square meter</td>
+              <td>- Modeled solar radiation on a horizontal surface received from the sky.
+              - This is assuming clear sky condition</td>
+            </tr>
+            <tr>
+              <td>Cloud Type</td>
+              <td>Unitless</td>
+              <td>Obtained from PATMOS-X</td>
+            </tr>
+            <tr>
+              <td>Dew Point</td>
+              <td>Degree C</td>
+              <td>Calculated from specific humidity</td>
+            </tr>
+            <tr>
+              <td>DHI</td>
+              <td>Watt per square meter</td>
+              <td>Modeled solar radiation on a horizontal surface received from the sky excluding the solar disk.</td>
+            </tr>
+            <tr>
+              <td>DNI</td>
+              <td>Watt per square meter</td>
+              <td>Modeled solar radiation obtained from the direction of the sun.</td>
+            </tr>
+            <tr>
+              <td>GHI</td>
+              <td>Watt per square meter</td>
+              <td>Modeled solar radiation on a horizontal surface received from the sky.</td>
+            </tr>
+            <tr>
+              <td>Fill Flag</td>
+              <td>Unitless</td>
+              <td>'N/A': 0, 'Missing Image': 1, 'Low Irradiance': 2, 'Exceeds Clearsky': 3, 'Missing Cloud Properties': 4, 'Rayleigh Violation': 5</td>
+            </tr>
+            <tr>
+              <td>Snow Depth</td>
+              <td>Meters</td>
+              <td>Source: MERRA</td>
+            </tr>
+            <tr>
+              <td>Solar Zenith Angle</td>
+              <td>Degrees</td>
+              <td>Angle between the sun and the zenith</td>
+            </tr>
+            <tr>
+              <td>Temperature</td>
+              <td>Degree C</td>
+              <td>Source: MERRA</td>
+            </tr>
+            <tr>
+              <td>Pressure</td>
+              <td>Millibar</td>
+              <td>Source: MERRA</td>
+            </tr>
+            <tr>
+              <td>Relative Humidity</td>
+              <td>Percent</td>
+              <td>Calculated from specific humidity</td>
+            </tr>
+            <tr>
+              <td>Precipitable Water</td>
+              <td>Millimeter</td>
+              <td>Source: MERRA</td>
+            </tr>
+            <tr>
+              <td>Wind Direction</td>
+              <td>Degrees</td>
+              <td>Source: MERRA</td>
+            </tr>
+            <tr>
+              <td>Wind Speed</td>
+              <td>Meter per second</td>
+              <td>Source: MERRA</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="data-availability">
+        <div class="drop-shadow-text-box">
+          <h3>DATA AVAILABILITY</h3>
+          <p>USA: 1998–2014
+
+          Other countries: 1998–2014, with 2005–2012 available publicly. To obtain the full 1998–2014 data set, please contactnsrdb@nrel.gov.
+
+          Anguilla, Antigua and Barbuda, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Brazil, British Virgin Islands, Canada, Cape Verde, Cayman Island, Chile, Colombia, Costa Rica, Cuba, Curaçao, Dominica, Dominican Republic, Ecuador, El Salvador, Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Kiribati, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Barthélemy, Saint Lucia, Sint Maarten, St Vincent and the Grenadines, St-Martin, St. Kitts and Nevis, St. Pierre and Miquelon, Suriname, Trinidad and Tobago, Turks and Caicos Islands, U.S. Minor Outlying Islands, U.S. Virgin Islands, and Venezuela</p>
+        </div>
+      </section>
+      <section class="notes">
+        <h3>NOTES</h3>
+        <p>Snow data has missing values.
+
+        11/12/2015 – Relative Humidity data is incorrect; we are in the process of correcting the data.
+
+        11/12/2015 – There is a time period in few pixels where the maximum DNI goes above the extraterrestrial values; we are in the process of correcting this.</p>
+      </section>
+    </main>
+    <footer class="disclaimer" role="contentInfo">
+      <p class="disclaimer__NREL-disclaimer">
+        NREL is a national laboratory of the <a href="http://energy.gov/" target="_blank">U.S. Department of Energy,</a> <a href="http://energy.gov/eere/office-energy-efficiency-renewable-energy" target="_blank">Office of Energy Efficiency and Renewable Energy,</a> operated by the <a href="http://www.allianceforsustainableenergy.org/" target="_blank">Alliance for Sustainable Energy, LLC</a>
+      </p>
+      <ul>
+        <li><a  class="disclaimer__links" href="https://nsrdb.nrel.gov/contact">Need Help? |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/security.html"> Security & Privacy |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/disclaimer.html"> Disclaimer |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/"> NREL Home</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
