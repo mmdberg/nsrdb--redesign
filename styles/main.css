@@ -9,7 +9,7 @@
 }
 
 * {
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   margin: 0;
   letter-spacing: 2px;
@@ -22,7 +22,6 @@ body {
 
 
 h3 {
-  border-bottom: 2px #69696994 solid;
   font-size: 1.5em;
   margin: 20px auto;
   padding: 10px;
@@ -30,12 +29,39 @@ h3 {
   text-align: center;
 }
 
+:target h3 {
+  border-bottom: 2px #69696994 solid;
+  font-weight: bold;
+}
+
+  
 p {
+  font-family: 'PT Sans', sans-serif;
   margin: 25px auto;
   width: 45%;
-  font-size: 1.3em;
+  font-size: 1.4em;
   line-height: 150%;
   letter-spacing: none;
   text-align: left;
   white-space: pre-line;
+}
+
+p a {
+  font-size: 1em;
+  color: #696969;
+  margin-right: 3px;
+}
+
+.drop-shadow-text-box {
+  margin: 20px auto;
+  width: 55%;
+  padding: 5px;
+  background-color: #e5e5e5c2;
+}
+
+.drop-shadow-text-box p {
+  width: 90%;
+}
+.drop-shadow-text-box h3 {
+  width: 60%;
 }

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>TMY</title>
+  <link rel="stylesheet" href="../styles/TMY-page.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="nav">
+        <ul>
+          <li class="home-page">
+            <a href="">HOME</a>
+          </li>
+          <li class="about-page">
+            <a id="header__nav--active"   href="">ABOUT</a>
+          </li>
+          <li class="data-set-page">
+            <a href="">DATASET</a>
+          </li>
+          <li class="resource-page">
+            <a href="">RESOURCES</a>
+          </li>
+          <li class="contact-page">
+            <a href="">CONTACT</a>
+          </li>
+        </ul>
+        <div class="search-contanier">
+          <!-- <input id="search-bar" type="search" placeholder="Search...">
+          <label for="search-bar"> -->
+            <span><img  id="search__magnifying-img" src="../images/icons/magnifying-glass.svg" alt="magnifying glass image" /></span>
+          </label>
+        </div>
+      </nav>
+    <header class="header"> 
+      <h1 class="header__h1">NATIONAL  SOLAR RADIATION DATABASE</h1>
+      <h2 class="header__h2">ABOUT</h2>
+    </header>
+    <main>
+      <section class="TMY__section">
+        <h3 class="TMY__h3">TYPICAL METEOROLOGICAL YEAR</h3>
+        <p>TMY stands for "typical meteorological year" and is a widely used type of data available through the NSRDB. TMYs contain one year of hourly data that best represent weather conditions over a multiyear period.
+        </p>
+      </section>
+      <ul class="main__links about-page__main-links">
+        <li>
+          <a href="#what-is-TMY"> WHAT IS TMY?</a>
+        </li>
+        <li>
+          <a href="#data-used">TMY DATA USED</a>
+
+        </li>
+        <li>
+          <a href="#format-data">FORMAT OF DATA</a>
+        </li> 
+        <li>
+          <a href="#TMY-tables">TMY DATA TABLES</a>
+        </li>
+      </ul>
+      <section class="what-is-TMY__section" id="what-is-TMY">
+        <div class="drop-shadow-text-box">
+          <h3 class="TMY__h3" >WHAT IS TMY?</h3>
+          <p>The data are considered "typical" because the entirety of the original solar radiation and meteorological data is condensed into one year's worth of the most usual conditions. Although a TMY can be thought of as an average, the methods used to calculate it consider many factors beyond a simple calculation of average values, including solar resource data and weather data such as wind speed and ambient temperature.
+
+          To calculate a TMY, a multiyear data set is analyzed and 12 months are chosen from that time frame that best represent typical conditions. For example, a TMY developed from a set of data for the years 1998–2005 might use data from 2000 for January, 2003 for February, 1999 for March, and so on.</p>
+        </div>
+      </section>
+      <section id="data-used">
+          <h3 class="TMY__h3">WHAT IS TMY DATA USED FOR?</h3>
+          <p>TMYs are intended to be used in computer simulations of solar energy conversion systems and building systems. They make it possible to do production estimates and performance comparisons of different system types, configurations, and locations in the United States and its territories.
+
+          Because TMYs represent typical rather than extreme conditions, they are not suited for designing systems to meet the worst-case conditions occurring at a location.</p>
+        </div>
+      </section>
+      <section class="TMY-data-format__section" id="format-data">
+        <div class="drop-shadow-text-box">
+          <h3>FORMAT OF TMY DATA</h3>
+          <p>All TMY data are now in the System Advisor Model (SAM) CSV file format. Formerly, TMY data were available only through TMY file formats (i.e., TMY, TMY2, TMY3). By switching to the more user-friendly SAM CSV, TMY data are more flexible than ever and can be plugged into the vast majority of solar modeling programs.
+
+          Gridded TMY data is derived from the 4-km by 4-km gridded NSRDB data, with the 1998–2014 data being used in the currently available TMY.</p>
+        </div>
+      </section>
+      <section class="TMY-data__table" id="TMY-tables">
+        <h3>TMY DATA TABLES</h3>
+        <table class="data__table-1">
+          <caption>Gridded TMY data header (line1)</caption>
+          <thead>
+            <tr>
+              <th>Element</th>
+              <th>Unit of Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Source</td>
+              <td>NSRDB</td>
+            </tr>
+            <tr>
+              <td>Location ID</td>
+              <td>Site identifier</td>
+            </tr>
+            <tr>
+              <td>City</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>State</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Country</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Latitude</td>
+              <td>Decimal degree</td>
+            </tr>
+            <tr>
+              <td>Longitude</td>
+              <td>Decimal degree</td>
+            </tr>
+            <tr>
+              <td>Time Zone</td>
+              <td>Greenwich time zone, 0</td>
+            </tr>
+            <tr>
+              <td>Elevation</td>
+              <td>Meter</td>
+            </tr>
+            <tr>
+              <td>Local Time Zone</td>
+              <td>Hours from Greenwich, negative west</td>
+            </tr>
+          </tbody>
+        </table>
+         <table class="data__table-2">
+          <caption>Gridded TMY data header (line2)</caption>
+          <thead>
+            <tr>
+              <th>Element</th>
+              <th>Unit of Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Year</td>
+              <td>1998-2014</td>
+            </tr>
+            <tr>
+              <td>Month</td>
+              <td>1-12</td>
+            </tr>
+            <tr>
+              <td>Day</td>
+              <td>1-28, 1-30, or 1-31</td>
+            </tr>
+            <tr>
+              <td>Hour</td>
+              <td>1-23</td>
+            </tr>
+            <tr>
+              <td>Minute</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>Dew Point</td>
+              <td>Degree C</td>
+            </tr>
+            <tr>
+              <td>DHI</td>
+              <td>Watt per square meter</td>
+            </tr>
+            <tr>
+              <td>DNI </td>
+              <td>Watt per square meter</td>
+            </tr>
+            <tr>
+              <td>GHI</td>
+              <td>Watt per square meter</td>
+            </tr>
+            <tr>
+              <td>Temperature</td>
+              <td>Degree C</td>
+            </tr>
+            <tr>
+              <td>Pressure</td>
+              <td>Millibar</td>
+            </tr>
+            <tr>
+              <td>Wind Direction</td>
+              <td>Degrees</td>
+            </tr>
+            <tr>
+              <td>Wind Speed</td>
+              <td>Meter per second</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer class="disclaimer" role="contentInfo">
+      <p class="disclaimer__NREL-disclaimer">
+        NREL is a national laboratory of the <a href="http://energy.gov/" target="_blank">U.S. Department of Energy,</a> <a href="http://energy.gov/eere/office-energy-efficiency-renewable-energy" target="_blank">Office of Energy Efficiency and Renewable Energy,</a> operated by the <a href="http://www.allianceforsustainableenergy.org/" target="_blank">Alliance for Sustainable Energy, LLC</a>
+      </p>
+      <ul>
+        <li><a  class="disclaimer__links" href="https://nsrdb.nrel.gov/contact">Need Help? |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/security.html"> Security & Privacy |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/disclaimer.html"> Disclaimer |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/"> NREL Home</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

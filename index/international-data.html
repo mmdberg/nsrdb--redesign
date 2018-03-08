@@ -5,6 +5,7 @@
   <title>International Data</title>
   <link rel="stylesheet" href="../styles/international-data.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   </head>
   <body>
     <nav class="nav">
@@ -39,23 +40,29 @@
     <main>
       <section class="international-description">
         <h3 class="international-description__h3"> INTERNATIONAL DATA</h3>
-        <p>The NSRDB contains not only data for the United States, but also for a growing list of countries in different parts of the world. </p>
+        <p>The NSRDB contains not only data for the <a href="https://nsrdb.nrel.gov/current-version">United States</a>, but also for a growing list of countries in different parts of the world. </p>
       </section>
       <ul class="main__links about-page__main-links">
         <li>
-          <a href=""> WHAT IS NSRDB?</a>
+          <a href="#available-data">AVAILABLE DATA</a>
         </li>
         <li>
-          <a href="">U.S DATA</a>
+          <a href="#international-availabilty">
+          INTERNATIONAL AVAILABILITY</a>
 
         </li>
         <li>
-          <a href="">TYPICAL METEOROLOGICAL YEAR</a>
+          <a href="#SUNY-model">SUNY MODEL</a>
+        </li>
+        <li>
+          <a href="#ref">REFERENCES</a>
         </li> 
       </ul>
-      <section class="available-data__section">
-        <h3> AVAILABLE DATA</h3>
-        <p>The data available in the NSRDB for various international countries was developed using one of two different models: the Physical Solar Model (PSM) that is used for the latest version of the U.S. NSRDB data, and the SUNY Semi-Empirical model, which is <a href="">described in detail below.</a> A summary of these international data sets is provided in the table below.</p>
+      <section class="available-data__section" id="available-data">
+        <div class="drop-shadow-text-box">
+          <h3> AVAILABLE DATA</h3>
+          <p>The data available in the NSRDB for various international countries was developed using one of two different models: the Physical Solar Model (PSM) that is used for the latest version of the U.S. NSRDB data, and the SUNY Semi-Empirical model, which is described in detail below. A summary of these international data sets is provided in the table below.</p>
+        </div>
       </section>
       <section class="international-data__section">
         <table>
@@ -87,7 +94,7 @@
           </tbody>
         </table>
       </section>
-      <section class="international-list">
+      <section class="international-list" id="international-availabilty">
         <h3 class="international-list__h3"> AVAILABLE DATA IN INTERNATIONAL COUNTRIES</h3>
         <article class="content-container">
           <div class="international-list--header show">
@@ -111,7 +118,7 @@
           </div>
         </article>
       </section>
-      <section class="SUNY-data__section">
+      <section class="SUNY-data__section" id="SUNY-model">
         <h3>About the SUNY Semi-Empirical Model</h3>
         <p>The NSRDB SUNY Semi-Empirical Model data was developed using the semi-empirical satellite model developed by Perez et al. [1, 2, 3] as part of the India-U.S. Energy Dialogue. These data were developed in collaboration with the State University of New York at Albany (SUNY Albany) and Solar Consulting Services.
 
@@ -128,7 +135,7 @@
         •Monthly aerosol optical depth (AOD): The current simulation uses month-specific AOD prepared by Solar Consulting Services [5] and derived from an ensemble of sources including satellite remote sensing, transport models, and ground measurements.
         </p>
       </section>
-      <section class="ref">
+      <section class="ref" id="ref">
         <ul>
         <h3>REFERENCES</h3>
           <li>1. Perez R., P. Ineichen, K. Moore, M. Kmiecik, C. Chain, R. George and F. Vignola, (2002): A New Operational Satellite-to-Irradiance Model. Solar Energy 73, 5, pp. 307-317.</li>

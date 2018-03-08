@@ -1,0 +1,35 @@
+table {
+  width: 70%;
+  margin: 25px auto;
+  background-color: #fff;
+}
+
+th {
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 5px;
+  width: 30%;
+  background-color: #C6E0E1;
+  border-bottom: 2px #1a8e92 solid
+}
+
+td {
+  font-size: 1.2em;
+  padding: 5px;
+  width: 42%;
+  vertical-align: middle;
+}
+
+caption {
+  width: 55%;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 20px auto;
+  text-align: center;
+}
+
+tr {
+
+  padding: 3px;
+  margin: 5px;
+}

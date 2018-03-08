@@ -1,8 +1,12 @@
 $('.content-container').hover(function(){
-  console.log('hello')
     $('div').toggleClass('show').toggleClass('hide');
     return false;
 });
+
+// $('.content-container').click(function(){
+//     $('div').toggleClass('show').toggleClass('hide');
+//     return false;
+// });
 
 
 
