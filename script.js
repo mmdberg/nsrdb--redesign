@@ -1,39 +1,45 @@
 $('.content-container').hover(function(){
-  console.log('hello')
     $('div').toggleClass('show').toggleClass('hide');
     return false;
 });
 
+// $('.data-content-container').hover(function(){
+//   console.log('hello dear')
+//     $('.data-show').hide();
+//     $('.data-hide').show();
+//     // $('div').toggleClass('.data-show').toggleClass('.data-hide');
+// });
 
 
 
-$('#what-is__toggle').click(readWhatIsToggle);
-function readWhatIsToggle() {
-  var elem = $('#what-is__toggle').text();
-  if(elem === "Read More"){
-    $('#what-is__toggle').text("Read Less");
-    $('#read-more-text__what-is').slideDown()
-    $('.main__what-is').css('height', '487px')
-  } else {
-    $('#what-is__toggle').text("Read More");
-    $('#read-more-text__what-is').slideUp()
-    $('.main__what-is').css('height', '340px')
-  }
-}
 
-$('#sunshot__toggle').click(readSunshotToggle);
-function readSunshotToggle() {
-  var elem = $('#sunshot__toggle').text();
-  if(elem === "Read More"){
-    $('#sunshot__toggle').text("Read Less");
-    $('#read-more-text__sunshot').slideDown()
-    $('.main__sunshot').css('height', '445px')
-  } else {
-    $('#sunshot__toggle').text("Read More");
-    $('#read-more-text__sunshot').slideUp()
-    $('.main__sunshot').css('height', '270px')
-  }
-}
+// $('#what-is__toggle').click(readWhatIsToggle);
+// function readWhatIsToggle() {
+//   var elem = $('#what-is__toggle').text();
+//   if(elem === "Read More"){
+//     $('#what-is__toggle').text("Read Less");
+//     $('#read-more-text__what-is').slideDown()
+//     $('.main__what-is').css('height', '487px')
+//   } else {
+//     $('#what-is__toggle').text("Read More");
+//     $('#read-more-text__what-is').slideUp()
+//     $('.main__what-is').css('height', '340px')
+//   }
+// }
+
+// $('#sunshot__toggle').click(readSunshotToggle);
+// function readSunshotToggle() {
+//   var elem = $('#sunshot__toggle').text();
+//   if(elem === "Read More"){
+//     $('#sunshot__toggle').text("Read Less");
+//     $('#read-more-text__sunshot').slideDown()
+//     $('.main__sunshot').css('height', '445px')
+//   } else {
+//     $('#sunshot__toggle').text("Read More");
+//     $('#read-more-text__sunshot').slideUp()
+//     $('.main__sunshot').css('height', '270px')
+//   }
+// }
 
 
 // pageLoad();
