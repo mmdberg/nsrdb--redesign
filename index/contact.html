@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="../styles/contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="nav">
+        <ul>
+          <li class="home-page">
+            <a href="">HOME</a>
+          </li>
+          <li class="about-page">
+            <a id="header__nav--active"   href="">ABOUT THE DATA</a>
+          </li>
+          <li class="resource-page">
+            <a href="">RESOURCES</a>
+          </li>
+          <li class="contact-page">
+            <a href="">CONTACT</a>
+          </li>
+        </ul>
+        <div class="search-contanier">
+          <!-- <input id="search-bar" type="search" placeholder="Search...">
+          <label for="search-bar"> -->
+            <span><img  id="search__magnifying-img" src="../images/icons/magnifying-glass.svg" alt="magnifying glass image" /></span>
+          </label>
+        </div>
+      </nav>
+    <header class="header"> 
+      <h1 class="header__h1">NATIONAL  SOLAR RADIATION DATABASE</h1>
+      <h2 class="header__h2">CONTACT</h2>
+    </header>
+    <main>
+      <h3>CONTACT</h3>
+      <p>Please post any questions or requests about the NSRDB as an issue in the Github repository (link pending) for this page. 
+
+      Questions and comments can also be submitted to the NREL team via this contact form.</p>
+      <form id="contact" action="" method="post">
+        <h4>Contact us for Questions and Comments</h4>
+        <fieldset>
+          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+       </fieldset>
+        <fieldset>
+          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Subject" type="text" tabindex="4" required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Type your Message Here...." tabindex="5" required>
+            
+          </textarea>
+        </fieldset>
+        <fieldset>
+          <h4>By submitting this form, you accept the Mollom privacy policy.</h4>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+      </form>    
+    </main>
+    <footer class="disclaimer" role="contentInfo">
+      <p class="disclaimer__NREL-disclaimer">
+        NREL is a national laboratory of the <a href="http://energy.gov/" target="_blank">U.S. Department of Energy,</a> <a href="http://energy.gov/eere/office-energy-efficiency-renewable-energy" target="_blank">Office of Energy Efficiency and Renewable Energy,</a> operated by the <a href="http://www.allianceforsustainableenergy.org/" target="_blank">Alliance for Sustainable Energy, LLC</a>
+      </p>
+      <ul>
+        <li><a  class="disclaimer__links" href="https://nsrdb.nrel.gov/contact">Need Help? |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/security.html"> Security & Privacy |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/disclaimer.html"> Disclaimer |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/"> NREL Home</a></li>
+      </ul>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="downloads/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="../script.js"></script>
+  </body>
+</html>
