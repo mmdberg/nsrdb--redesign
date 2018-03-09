@@ -6,13 +6,14 @@
     <link rel="stylesheet" href="normalize/normalize.css">
     <link rel="stylesheet" href="styles/home-main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   </head>
   <body>
     <header role="banner" class="header">
       <h2>NATIONAL SOLAR RADIATION DATABASE</h2>
       <ul class="header__nav">
-        <li><a class="header__nav__link" href="https://nsrdb.nrel.gov/about">About</a></li>
-        <li><a class="header__nav__link" href="https://nsrdb.nrel.gov/data-sets">Data Sets</a></li>
+        <li><a class="header__nav__link" href="https://nsrdb.nrel.gov/about">Home</a></li>
+        <li><a class="header__nav__link" href="https://nsrdb.nrel.gov/data-sets">About the Data</a></li>
         <li><a class="header__nav__link" href="https://nsrdb.nrel.gov/resources">Resources</a></li>
         <li><a class="header__nav__link" href="https://nsrdb.nrel.gov/contact">Contact</a></li>
       </ul>
@@ -25,41 +26,98 @@
       <section class="main__subtitle">
         <h3>ADVANCING THE SCIENCE OF SOLAR DATA</h3>
         <ul>
-          <li><a class="main__subtitle__link" href="#whatis">What is NSRDB?</a></li>
-          <li><a class="main__subtitle__link" href="#sunshot">Sunshot Initiative</a></li>
-          <li><a class="main__subtitle__link" href="#evaluation">Evaluation</a></li>
+          <li><a class="main__subtitle__link" href="#whatis">What is the NSRDB?</a></li>
+          <li><a class="main__subtitle__link" href="#access-data">Accessing NSRDB Data</a></li>
+          <li><a class="main__subtitle__link" href="#contributors">Supporters and Contributors</a></li>
         </ul>
       </section>
       <section class="main__collage">
         <img class="main__collage__image main-image1" src="./images/nasa-orb.jpg" alt="">
         <img class="main__collage__image main-image2" src="./images/solar-panel.jpeg" alt="">
-        <img class="main__collage__image main-image3" src="./images/wind-energy.jpeg" alt="">
-        <img class="main__collage__image main-image4" src="./images/nyc-night.jpg" alt="">
+        <img class="main__collage__image main-image3" src="./images/nyc-night.jpg" alt="">
+        <img class="main__collage__image main-image4" src="./images/wind-energy.jpeg" alt="">
+        <img class="main__collage__image main-image5" src="./images/luca-bravo.jpg" alt="">
+        <img class="main__collage__image main-image6" src="./images/karsten-wurth.jpg" alt="">
       </section>
       <section class="main__what-is" id="whatis">
         <h3>WHAT IS THE NSRDB?</h3>
         <p>
-          The National Solar Radiation Database (NSRDB) is a serially complete collection of meteorological and solar irradiance data sets for the United States and a growing list of international locations. The data are publicly available at no cost to the user. <span id="read-more-text__what-is">The NSRDB provides foundational information to support U.S. Department of Energy programs, research, and the general public. Comparable products are also available from commercial vendors.</span>
+          The National Solar Radiation Database (NSRDB) is a serially complete collection of hourly and half-hourly values of meteorological data and the three most common measurements of solar radiation: global horizontal, direct normal, and diffuse horizontal irradiance. It covers the United States and a growing subset of international locations. These data have been collected at a sufficient number of locations and temporal and spatial scales to accurately represent regional solar radiation climates. For a given location covered by the dataset, it is possible to see the amount of solar energy that was at a given time, and to predict the potential future availability of solar energy based on past conditions.
         </p>
-        <button class="main__button" id="what-is__toggle">Read More</button>
+        <ul>
+          <li class="main__what-is__link">U.S. Data</li>
+          <li class="main__what-is__link">International Data</li>
+          <li class="main__what-is__link">Typical Meteorological Year</li>
+        </ul>
       </section>
-<!--       <section class="main__data-set">
-        <h3>DATA SETS </h3>
-        <img class="main__data-set__image" src="./images/data-set-1.png" alt="">
-        <img class="main__data-set__image" src="./images/data-set-3.png" alt="">
-        <img class="main__data-set__image" src="./images/data-set-2.png" alt="">
-      </section> -->
-      <section class="main__sunshot" id="sunshot">
-        <h3>SUNSHOT INITIATIVE</h3>
+      <section class="main__data" id="access-data">
+        <div class="drop-shadow-text-box">
+          <h3>ACCESSING NSRDB DATA</h3>
+          <p>
+            NSRDB Data is publicly available at no cost. The data can be accessed via the NSRDB Viewer, an API, or through Globus.
+          </p>
+        
+        <div class="ways-to-access-data">
+          <article class="nsrdb-viewer">
+            <div class="nsrdb-viewer--header data-show">
+              <h1>NSRDB VIEWER</h1>
+            </div>
+            <div class="nsrdb-viewer--info data-hide">
+              <h4>NSRDB Viewer</h4>
+              <p>The NSRDB Viewer is the easiest way to download NSRDB  data. It is a geospatial web application that allows for   the visualization and download of NSRDB data. </p>
+              <button>Go to Viewer</button>
+            </div>
+          </article>
+          <article class="nsrdb-api">
+            <div class="nsrdb-api--header data-show">
+              <h1>NSRDB API</h1>
+            </div>
+            <div class="nsrdb-api--info data-hide">
+              <h4>NSRDB API</h4>
+              <p>NSRDB data is also available through an API. Go to <a  href="https://developer.nrel.gov/" target="_blank">  developer.nrel.gov</a> to sign up for an API key and  request data from the API.</p>
+            </div>
+          </article>
+          <article class="globus-data">
+            <div class="globus-data--header data-show">
+            <h1>Globus Data Download</h1>
+            </div>
+            <div class="globus-data--info data-hide">
+              <h4>Globus Data Download</h4>
+              <p>To download a very large amount of data, it is   necessary to use Globus. See instructions for using   Globus to download NSRDB data <a href="">here.</a></p>
+            </div>
+          </article>
+        </div>
+        <div class="compatability">
+          <p>
+            NSRDB data are compatible with many system performance and economic models, including the following products created by NREL:
+          </p>
+          <ul>
+            <li> <a href="https://sam.nrel.gov/" target="_blank">System Advisor Model (SAM)</a></li>
+            <li><a href="http://pvwatts.nrel.gov/" target="_blank">PVWatts</a></li>
+            <li><a href="http://www.nrel.gov/electricity/transmission/sind_toolkit.html" target="_blank">Solar Integration National Dataset (SIND) Toolkit </a></li>
+          </ul>
+        </div>
+        </div>
+      </section>
+      <section class="main__contributors" id="contributors">
+        <h3>SUPPORTERS AND CONTRIBUTORS</h3>
         <p>
-          Supported by the U.S. Department of Energy’s <a href="https://energy.gov/eere/solar/solar-energy-technologies-office" target="_blank">SunShot Initiative,</a> the NSRDB is a widely used and relied-upon resource. <span id="read-more-text__sunshot">The database is managed and updated using the latest methods of research by a specialized team of forecasters at the National Renewable Energy Laboratory (NREL).</span>
+          Supported by the U.S. Department of Energy’s <a href="https://energy.gov/eere/solar/solar-energy-technologies-office" target="_blank">SunShot Initiative,</a> the NSRDB is a widely used and relied-upon resource. The database is managed and updated using the latest methods of research by a specialized team of forecasters at the National Renewable Energy Laboratory (NREL).
         </p>
-        <button class="main__button" id="sunshot__toggle">Read More</button>
-      </section>
-      <section class="main__evaluation" id="evaluation">
-        <h3>EVALUATION OF THE NSRDB</h3>
-        <p>This new report evaluates the NSRDB data, particularly the new approach and expanded data.</p>
-        <p><a href="http://www.nrel.gov/docs/fy17osti/67722.pdf" target="_blank">Click to download</a></p>
+        <p>
+          Data collection for the NSRDB is a collaborative effort. Contributors include:
+        </p>
+        <ul class="main__contributors__content">
+          <li>National Renewable Energy Laboratory</li>
+          <li>U.S. Department of Energy</li>
+          <li>National Oceanic and Atmospheric Administration</li>
+          <li>National Aeronautics and Space Administration</li>
+          <li>University of Wisconsin</li>
+          <li>Solar Consulting Services, Colebrook, New Hampshire</li>
+          <li>Atmospheric Sciences Research Center, State University of New York at Albany</li>
+          <li>National Climatic Data Center, U.S. Department of Commerce</li>
+          <li>Solar Radiation Monitoring Laboratory, University of Oregon</li>
+        </ul>
       </section>
       <section class="main__image-row">
         <img src="./images/wind-energy.jpeg" alt="" class="main__image-row__image">
