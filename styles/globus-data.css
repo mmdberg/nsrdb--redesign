@@ -1,0 +1,67 @@
+@import "landing-header.css";
+@import "main.css";
+@import "footer.css";
+
+.globus-data-description {
+  padding: 40px;
+}
+
+article {
+  padding: 40px;
+  border-top: 2px solid #696969;
+  margin: 0 60px;
+}
+
+h3 {
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid #696969;
+}
+
+.globus-data-description p {
+  margin-top: 0;
+}
+
+.header__h2 {
+  width: 265px;
+}
+
+.main__links li {
+  border: ;
+}
+
+p {
+  width: 55%;
+  letter-spacing: 0;
+
+}
+
+a {
+  letter-spacing: 0
+}
+
+.main__instructions p {
+  display: list-item;                                           
+  list-style-type: disc; 
+  list-style-position: inside;
+}
+
+h4 {
+  font-size: 18px;
+  text-align: center;
+}
+
+:target h4 {
+  border: 2px black solid;
+  padding: 10px;
+  margin: 0 30%;
+}
+
+img {
+  height: auto;
+  width: 65%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
