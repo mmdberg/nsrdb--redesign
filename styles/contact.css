@@ -30,8 +30,7 @@ fieldset {
 
 #contact input[type="text"],
 #contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"], 
+#contact input[type="text"], 
 #contact textarea {
   width:100%;
   border:1px solid #CCC;
@@ -42,8 +41,7 @@ fieldset {
 
 #contact input[type="text"]:hover, 
 #contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover, 
+#contact input[type="text"]:hover,, 
 #contact textarea:hover {
   -webkit-transition:border-color 0.3s ease-in-out;
   -moz-transition:border-color 0.3s ease-in-out;
@@ -61,7 +59,8 @@ fieldset {
   cursor:pointer;
   width:100%;
   border:none;
-  background:#0CF;
+  background:#30054a96;
+  box-shadow: inset 0 -1px 4px rgba(0, 0, 0, 0.6);
   color:#FFF;
   margin:0 0 5px;
   padding:10px;
@@ -69,7 +68,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-  background:#09C;
+  background:#5f0c9296;
   -webkit-transition:background 0.3s ease-in-out;
   -moz-transition:background 0.3s ease-in-out;
   transition:background-color 0.3s ease-in-out;

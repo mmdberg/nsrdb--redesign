@@ -3,29 +3,6 @@
 @import "footer.css";
 @import "table.css";
 
-.available-data__section {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  padding: 10px;
-  margin: 30px 0;
-  background: linear-gradient(
-    rgba(212, 212, 212, 0.2),
-    rgba(194, 192, 192, 0.5)),
-    url('../images/solar-flare.jpeg');
-  background-position: right;
-}
-
-
-.international-list {
-  text-align: center;
-}
-
-.international-list__h3 {
-  margin: 20px auto;
-  width: 40%;
-}
-
 article {
   display: inline-block;
   position: relative;
@@ -61,6 +38,28 @@ article h1 {
   margin: 20px;
 }
 
+.available-data__section {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 30px 0;
+  background: linear-gradient(
+    rgba(212, 212, 212, 0.2),
+    rgba(194, 192, 192, 0.5)),
+    url('../images/solar-flare.jpeg');
+  background-position: right;
+}
+
+.international-list {
+  text-align: center;
+}
+
+.international-list__h3 {
+  margin: 20px auto;
+  width: 40%;
+}
+
 .international-list--header p {
   position: absolute;
   top: 170px;
@@ -72,9 +71,6 @@ article h1 {
   background-color: #fff;
   
 }
-
-
-/**/
 
 .hide {
     position: absolute;
