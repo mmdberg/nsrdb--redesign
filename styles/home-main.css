@@ -125,7 +125,7 @@ h3 {
 
 .main__subtitle {
   text-align: center;
-  padding: 53px 15%;
+  padding: 53px 10%;
 }
 
 .main__subtitle__link,
@@ -198,7 +198,7 @@ h3 {
 
 .main__what-is {
   text-align: center;
-  padding: 53px 15%;
+  padding: 10px 15% 53px 15%;
 }
 
 .main__what-is__link {
@@ -234,6 +234,7 @@ h3 {
 
 #access-data .drop-shadow-text-box {
   width: 100%;
+  padding: 25px;
 }
 
 .ways-to-access-data {
@@ -243,7 +244,7 @@ h3 {
   height: 250px;
 }
 
-.nsrdb-viewer {
+/*.nsrdb-viewer {
  background: url('../images/data-set-1.png');
  background-size: cover;
 }
@@ -256,37 +257,29 @@ h3 {
 .globus-data {
   background: url('../images/data-set-3.png');
   background-size: cover;
-}
+}*/
 
 
 article {
   background: linear-gradient(
-    rgba(212, 212, 212, 0.2),
-    rgba(194, 192, 192, 0.5));
-/*  background-size: cover;*/
+    rgba(255, 255, 255, 0.7),
+    rgba(194, 192, 192, 0.7)),
+    url('../images/solar-panel.jpeg');
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   border: 2px black solid;
 }
 
-
-
-
 article:hover {
   background: linear-gradient(
-    rgba(212, 212, 212, 0.7),
-    rgba(194, 192, 192, 0.8))
-    color: white;
+    rgba(212, 212, 212, 0.6),
+    rgba(194, 192, 192, 0.8)),
+    url('../images/solar-panel.jpeg')
 /*  background-size: cover;
   background-repeat: no-repeat;*/
 
 }
-
-/*article p {
-  width: 90%;
-}*/
-
-
 
 article h1 {
   font-size: 18px;
@@ -313,12 +306,7 @@ h4 {
   width: 100%;
   opacity: 0;
   transition: 1s ease;
-/*  background-color: #008CBA;*/
 }
-
-/*.ways-to-access-data:hover .data-hide {
-  opacity: 1;
-}*/
 
 .nsrdb-viewer:hover .data-hide,
 .nsrdb-api:hover .data-hide,
@@ -336,10 +324,9 @@ h4 {
   color: black;
   font-size: 14px;
   position: absolute;
-  top: 33%;
-  left: 0;
   text-align: center;
-  background-color: #e5e5e5c2
+  background-color: #9a9898c2;
+  padding: 5px;
 }
 
 .data-hide a {
@@ -348,43 +335,30 @@ h4 {
 
 .data-hide button {
   position: absolute;
-  bottom: 40px;
-  left: 30px;
-  
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
-
-/*.data-hide {
-    position: absolute;
-    bottom: -800px;
-    overflow: hidden;
-    max-height: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-    -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+.compatability li {
+  font-size: 12px;
+  border: 2px #696969 solid;
+  padding: 5px;
+  margin: 0 20%;
+/*  color: black;*/
+  display: block;
+/*  letter-spacing: 0;*/
 }
-.data-show {
-    -moz-transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -moz-transition-timing-function: ease-in;
-    -webkit-transition-timing-function: ease-in;
-    -o-transition-timing-function: ease-in;
-    transition-timing-function: ease-in;
-    max-height: 1000px;
-    background-color: #AAA7A8;
-    overflow: hidden;
-}*/
+
+.compatability a {
+  letter-spacing: 0;
+  color: black;
+}
+
+.compatability li:hover {
+  border: 4px #696969 solid;
+  background-color: #9a9898c2;
+}
 
 
 /*CONTRIBUTORS*/
