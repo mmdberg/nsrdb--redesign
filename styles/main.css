@@ -52,6 +52,13 @@ p a {
   margin-right: 3px;
 }
 
+.links__page {
+  box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.2);
+  border: 2px #69696994 double;
+  padding: 3px;
+  padding-bottom: 3px;
+}
+
 .drop-shadow-text-box {
   margin: 20px auto;
   width: 55%;
