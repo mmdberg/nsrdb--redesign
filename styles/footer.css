@@ -6,13 +6,12 @@ footer {
 }
 
 .disclaimer__NREL-disclaimer {
-  font-size: 0.5rem;
-  padding: 1rem;
-/*  margin-right: 0;*/
+/*  font-size: 0.5rem;*/
+  padding: 0 1rem;
   width: 95%;
-  padding-bottom: 0;
   margin: 0;
   letter-spacing: 0;
+  font-size: 10px;
 }
 
 footer a {
@@ -23,7 +22,6 @@ footer a {
 .disclaimer__links li {
   text-align: center;
   color: #e0e0e0;
-  font-size: 0.5rem;
   text-decoration: none;
   display: inline-block;
 }
@@ -37,7 +35,7 @@ footer ul {
 footer a {
   text-decoration: none;
   color: #e0e0e0;
-  font-size: 0.5rem;
+  font-size: 10px;
 }
 
 .disclaimer__links:hover,
