@@ -5,6 +5,7 @@
   <title>US Data</title>
   <link rel="stylesheet" href="../styles/US-data.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   </head>
   <body>
     <nav class="nav">
@@ -13,10 +14,7 @@
             <a href="">HOME</a>
           </li>
           <li class="about-page">
-            <a id="header__nav--active"   href="">ABOUT</a>
-          </li>
-          <li class="data-set-page">
-            <a href="">DATASET</a>
+            <a id="header__nav--active"   href="">ABOUT THE DATA</a>
           </li>
           <li class="resource-page">
             <a href="">RESOURCES</a>
@@ -39,21 +37,24 @@
     <main>
       <section class="about-description">
         <h3 class="about-description__h3">U.S. DATA</h3>
-        <p>NREL has provided solar resource data for the United States through the NRSDB for more than 25 years. We have also recently begun to collect data from a growing number of international locations, including India; to learn more, visit the NSRDB International page. </p>
+        <p>NREL has provided solar resource data for the United States through the NRSDB for more than 25 years. We have also recently begun to collect data from a growing number of international locations, including India; to learn more, visit the <a href="https://nsrdb.nrel.gov/international-datasets">NSRDB International page.</a> </p>
       </section>
       <ul class="main__links about-page__main-links">
         <li>
-          <a href=""> WHAT IS NSRDB?</a>
+          <a href="#available-versions">AVAILABLE VERSIONS</a>
         </li>
         <li>
-          <a href="">INTERNATIONAL DATA</a>
+          <a href="#psm">ABOUT PSM</a>
 
         </li>
         <li>
-          <a href="">TYPICAL METEOROLOGICAL YEAR</a>
+          <a href="#data-availability">DATA AVAILABILITY</a>
+        </li>
+        <li>
+          <a href="#notes">NOTES</a>
         </li> 
       </ul>
-      <section class="available-versions__section">
+      <section class="available-versions__section" id="available-versions">
         <div class="drop-shadow-text-box">
           <h3>AVAILABLE VERSIONS</h3>
           <p>
@@ -95,7 +96,7 @@
               <td>1 hour</td>
               <td>1,454 stations</td>
               <td class="td__desc">  
-                Solar data was obtained through the METSTAT (METeorological STATistical) model, and the meteorological data set was obtained from the National Climatic Data Center (NCDC) Integrated Surface Database (formerly Integrated Surface Hourly, ISH). <a href="https://www.nrel.gov/docs/fy12osti/54824.pdf">http://www.nrel.gov/docs/fy12osti/54824.pdf</a>
+                Solar data was obtained through the METSTAT (METeorological STATistical) model, and the meteorological data set was obtained from the National Climatic Data Center (NCDC) Integrated Surface Database (formerly Integrated Surface Hourly, ISH). <a class="pdf-links" href="https://www.nrel.gov/docs/fy12osti/54824.pdf">http://www.nrel.gov/docs/fy12osti/54824.pdf</a>
               </td>
             </tr>
             <tr class="MTS2-section">
@@ -105,7 +106,7 @@
               <td>1,454 stations</td>
               <td class="td__desc">  
                 Solar data was obtained through the METSTAT and the State University of New York (SUNY) Empirical model (measured <1%) and the meteorological data set was obtained from the NCDC ISH database. 
-                <a href="https://www.nrel.gov/docs/fy07osti/41364.pdf">http://www.nrel.gov/docs/fy07osti/41364.pdf</a>
+                <a class="pdf-links" href="https://www.nrel.gov/docs/fy07osti/41364.pdf">http://www.nrel.gov/docs/fy07osti/41364.pdf</a>
               </td>
             </tr>
             <tr class="MTS1-section">
@@ -115,13 +116,13 @@
               <td>239 stations</td>
               <td class="td__desc">  
                 Solar data was obtained through METSTAT (modeled 93% and measured 7%), and the meteorological dataset was obtained from the NCDC for Surface Airways hourly data.  
-                <a href="http://rredc.nrel.gov/solar/pubs/NSRDB/">http://rredc.nrel.gov/solar/pubs/NSRDB</a>
+                <a class="pdf-links" href="http://rredc.nrel.gov/solar/pubs/NSRDB/">http://rredc.nrel.gov/solar/pubs/NSRDB</a>
               </td>
             </tr>
           </tbody>
         </table>
       </section>
-      <section class="physical-solar-model__section">
+      <section class="physical-solar-model__section" id="psm">
         <div class="drop-shadow-text-box">
           <h3>ABOUT THE PHYSICAL SOLAR MODEL</h3>
           <p>The current version of the NSRDB (v2.0.0) was developed using the Physical Solar Model (PSM), and offers users the latest available data (1998–2014). NSRDB comprises 30-minute solar and meteorological data for approximately 2 million 0.038-degree latitude by 0.038-degree longitude surface pixels (nominally 4 km2). The area covered is bordered by longitudes 25° W on the east and 175° W on the west, and by latitudes -20° S on the south and 60° N on the north.
@@ -283,7 +284,8 @@
         </table>
       </section>
       <section class="data-availability">
-        <div class="drop-shadow-text-box">
+        <div class="drop-shadow-text-box" id=
+        "data-availability">
           <h3>DATA AVAILABILITY</h3>
           <p>USA: 1998–2014
 
@@ -292,7 +294,7 @@
           Anguilla, Antigua and Barbuda, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Brazil, British Virgin Islands, Canada, Cape Verde, Cayman Island, Chile, Colombia, Costa Rica, Cuba, Curaçao, Dominica, Dominican Republic, Ecuador, El Salvador, Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Kiribati, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Barthélemy, Saint Lucia, Sint Maarten, St Vincent and the Grenadines, St-Martin, St. Kitts and Nevis, St. Pierre and Miquelon, Suriname, Trinidad and Tobago, Turks and Caicos Islands, U.S. Minor Outlying Islands, U.S. Virgin Islands, and Venezuela</p>
         </div>
       </section>
-      <section class="notes">
+      <section class="notes" id="notes">
         <h3>NOTES</h3>
         <p>Snow data has missing values.
 

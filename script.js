@@ -3,12 +3,13 @@ $('.content-container').hover(function(){
     return false;
 });
 
-// $('.data-content-container').hover(function(){
-//   console.log('hello dear')
-//     $('.data-show').hide();
-//     $('.data-hide').show();
-//     // $('div').toggleClass('.data-show').toggleClass('.data-hide');
+
+// $('.content-container').click(function(){
+//     $('div').toggleClass('show').toggleClass('hide');
+//     return false;
 // });
+
+
 
 
 
