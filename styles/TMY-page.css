@@ -1,0 +1,39 @@
+@import "landing-header.css";
+@import "main.css";
+@import "footer.css";
+@import "table.css";
+
+.what-is-TMY__section,
+.TMY-data-format__section {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 30px 0;
+}
+
+.what-is-TMY__section {
+  background: linear-gradient(
+    rgba(212, 212, 212, 0.2),
+    rgba(194, 192, 192, 0.5)),
+    url('../images/nyc-night.jpg');
+   background-position: center;
+}
+
+.TMY-data-format__section {
+  background: linear-gradient(
+    rgba(212, 212, 212, 0.2),
+    rgba(194, 192, 192, 0.5)),
+    url('../images/panels.jpg');
+  background-position: bottom;
+}
+
+.what-is-TMY__section,
+.TMY-data-format__section {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.TMY__h3 {
+  width: 25%;
+}

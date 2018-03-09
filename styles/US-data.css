@@ -1,6 +1,12 @@
 @import "landing-header.css";
 @import "main.css";
 @import "footer.css";
+@import "table.css";
+
+
+caption {
+  text-align: left;
+}
 
 .available-versions__section, 
 .physical-solar-model__section, 
@@ -42,55 +48,10 @@
   background-repeat: no-repeat;
 }
 
-.drop-shadow-text-box {
-  /*height: 70%;*/
-  margin: 20px auto;
-  width: 45%;
-  padding: 5px;
-  background-color: #e5e5e5c2;
-}
 
-.drop-shadow-text-box p {
-  width: 90%;
-}
-.drop-shadow-text-box h3 {
-  width: 60%;
-} 
-
-table {
-  width: 70%;
-  margin: 25px auto;
-  background-color: #fff;
-}
-
-th {
-  font-weight: bold;
-  font-size: 1.3em;
-  padding: 5px;
-  width: 30%;
-  background-color: #C6E0E1;
-  border-bottom: 2px #1a8e92 solid
-}
-
-td {
-  font-size: 1.2em;
-  padding: 5px;
-  width: 42%;
-  vertical-align: middle;
-}
-
-caption {
-  width: 55%;
-  font-size: 1.4em;
-  font-weight: bold;
-  margin: 20px auto;
-  text-align: left;
-}
-
-tr {
-
-  padding: 3px;
-  margin: 5px;
+.pdf-links {
+  font-size: 1em;
+  color: #696969;
 }
 
 .td__desc {
