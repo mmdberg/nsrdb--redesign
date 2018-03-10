@@ -171,9 +171,6 @@ caption {
     background-position: right;
   }
 
-  .drop-shadow-text-box {
-    width: 90%;
-  }
 }
 
 @media screen and (min-width: 1100px) {
@@ -185,8 +182,6 @@ caption {
     width: 65%;
   }
 
-  .drop-shadow-text-box {
-    width: 65%;
-  }
+  
 }
 
