@@ -10,12 +10,29 @@
   </head>
   <body>
     <nav class="nav">
-        <ul>
+        <ul class="navigation">
           <li class="home-page">
             <a href="">HOME</a>
           </li>
+          <li class="access-data">
+            <a href="">ACCESS THE DATA</a>
+          </li>
           <li class="about-page">
             <a href="">ABOUT THE DATA</a>
+            <ul class="sub-nav">
+              <li>
+                <a href="">WHAT IS NSRDB?</a>
+              </li>
+              <li>
+                <a href="">U.S DATA</a>
+              </li>
+              <li>
+                <a href="">INTERNATIONAL DATA</a>
+              </li>
+              <li>
+                <a href="">TYPICAL METEOROLOGICAL YEAR</a>
+              </li>
+            </ul>
           </li>
           <li class="resource-page">
             <a href="">RESOURCES</a>
@@ -25,10 +42,11 @@
           </li>
         </ul>
         <div class="search-contanier">
-          <!-- <input id="search-bar" type="search" placeholder="Search...">
-          <label for="search-bar"> -->
-            <span><img  id="search__magnifying-img" src="../images/icons/magnifying-glass.svg" alt="magnifying glass image" /></span>
-          </label>
+          <span class="search-icon-btn"><img  id="search__magnifying-img" src="../images/icons/magnifying-glass.svg" alt="magnifying glass image" />
+          </span>
+        </div>
+        <div class="search-input">
+          <input id="search-bar" type="search" placeholder="Search...">
         </div>
       </nav>
     <header class="header"> 
