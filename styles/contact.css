@@ -2,21 +2,9 @@
 @import "main.css";
 @import "footer.css";
 
-.header__h2 {
-  width: 90px;
-}
 
-#contact {
-  width: 65%;
-  background:#F9F9F9;
-  padding:35px;
-  margin:50px auto
-}
-
-#contact h4 {
-  margin:5px 0 15px;
-  display:block;
-  font-size:13px;
+h3 {
+  width: 100%;
 }
 
 fieldset {
@@ -27,6 +15,27 @@ fieldset {
   width: 100%;
 }
 
+p {
+    width: 85%;
+}
+
+
+.header__h2 {
+  width: 90px;
+}
+
+#contact {
+  width: 75%;
+  background:#F9F9F9;
+  padding:35px;
+  margin:50px auto
+}
+
+#contact h4 {
+  margin:5px 0 15px;
+  display:block;
+  font-size:13px;
+}
 
 #contact input[type="text"],
 #contact input[type="email"],
@@ -97,3 +106,25 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
+
+@media  screen and (min-width: 800px)  {
+  p {
+    width: 65%;
+  }
+
+  #contact {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  p {
+    width: 55%;
+  }
+
+  #contact {
+    width: 55%;
+  }
+}
+ 
+

@@ -3,9 +3,18 @@
 @import "footer.css";
 @import "table.css";
 
+table {
+  width: 90%;
+}
 
-caption {
+.current-version__section caption {
+  width: 40%;
+  margin: 20px;
   text-align: left;
+}
+
+.current-version__section {
+  overflow: scroll;
 }
 
 .available-versions__section, 
@@ -63,3 +72,9 @@ caption {
   padding: 7px;
 }
 
+@media screen and (min-width: 600px) {
+  .current-version__section caption {
+    margin: 20px auto;
+    width: 55%;
+  }
+}

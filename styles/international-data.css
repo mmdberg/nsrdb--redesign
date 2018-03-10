@@ -9,7 +9,7 @@ article {
   height: 400px;
   margin: 10px;
   overflow: hidden;
-  width: 30%;
+  width: 90%;
   vertical-align: top;
   background: linear-gradient(
     rgba(212, 212, 212, 0.2),
@@ -38,6 +38,19 @@ article h1 {
   margin: 20px;
 }
 
+caption {
+  margin: 15px;
+
+}
+.main__links li {
+  padding-bottom: 15px;
+
+}
+
+.psm-list {
+  overflow: scroll;
+}
+
 .available-data__section {
   width: 100%;
   height: 100%;
@@ -48,7 +61,11 @@ article h1 {
     rgba(212, 212, 212, 0.2),
     rgba(194, 192, 192, 0.5)),
     url('../images/solar-flare.jpeg');
-  background-position: right;
+  background-position: center;
+}
+
+.international-data__section {
+  overflow: scroll;
 }
 
 .international-list {
@@ -57,7 +74,7 @@ article h1 {
 
 .international-list__h3 {
   margin: 20px auto;
-  width: 40%;
+  /*width: 40%;*/
 }
 
 .international-list--header p {
@@ -99,14 +116,14 @@ article h1 {
     -webkit-transition-timing-function: ease-in;
     -o-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
-    max-height: 1000px;
+    /*max-height: 1000px;*/
     background-color: #AAA7A8;
     overflow: hidden;
 }
 
-.SUNY-data__section h3 {
+/*.SUNY-data__section h3 {
   width: 28%;
-}
+}*/
 
 .ref {
   padding: 20px;
@@ -124,12 +141,47 @@ article h1 {
 
 .ref ul {
   margin: auto;
-  width: 65%;
+  /*width: 65%;*/
   padding: 10px;
   background-color: #e5e5e5c2;
 }
 
 .ref li {
   font-size: 1.1em;
+}
+
+@media screen and (min-width: 600px) {
+  .main__links li {
+    padding: 5px;
+  }
+}
+
+
+
+@media screen and (min-width: 800px) {
+  article {
+    width: 45%
+  }
+
+  .main__links li {
+    padding: 10px;
+  }
+
+  .available-data__section {
+    background-position: right;
+  }
+
+}
+
+@media screen and (min-width: 1100px) {
+  article {
+    width: 35%;
+  }
+
+  .ref ul {
+    width: 65%;
+  }
+
+  
 }
 
