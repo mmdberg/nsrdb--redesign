@@ -31,6 +31,15 @@
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: scroll;
+}
+
+.available-data__section .drop-shadow-text-box {
+  width: fit-content;
+}
+
+.drop-shadow-text-box {
+  width: 90%;
 }
 
 
@@ -183,6 +192,14 @@ article h1 {
   .main__links li {
     padding: 5px;
   }
+
+  .available-data__section .drop-shadow-text-box {
+    width: 90%;
+  }
+
+  .drop-shadow-text-box {
+    width: 90%;
+  }
 }
 
 
@@ -198,6 +215,14 @@ article h1 {
 
   .available-data__section {
     background-position: right;
+  }
+
+  .available-data__section .drop-shadow-text-box {
+    width: 65%;
+  }
+
+  .drop-shadow-text-box {
+    width: 65%;
   }
 
 }

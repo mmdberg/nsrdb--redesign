@@ -1,6 +1,37 @@
 /* nav bar */
-
 nav {
+  position: relative;
+}
+
+ul {
+  text-align: center;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+  margin-bottom: 8px;
+
+}
+
+a {
+  color: #696969;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-right: 3em;
+}
+
+a:hover {
+  border: 2px #69696994 solid;
+  padding: 3px;
+  padding-bottom: 3px;
+  background-color: #69696940;
+  color: #fff;
+}
+
+/*stlying for sub headers*/
+/*nav {
   position: relative;
 }
 
@@ -64,7 +95,7 @@ navigation ul,
   position: absolute;
   z-index: 99999;*/
   /*width: 180px;*/
- background-color: #f8f8f8;
+/* background-color: #f8f8f8;
   box-shadow: 1px 1px 3px #ccc;
 
   -webkit-transition:opacity 0.2s linear, visibility 0.2s linear;
@@ -101,7 +132,7 @@ navigation ul,
   display: inline-block;
   border: 0 none;
   clear: both;
-}
+}*/
 
 #header__nav--active {
   border: 2px #69696994 solid;
