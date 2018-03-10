@@ -2,6 +2,15 @@
 @import "main.css";
 @import "footer.css";
 
+.resources-description {
+  margin-bottom: 22px;
+}
+
+.resources-description li{
+  display: block;
+  margin: 4px 0;
+}
+
 .header__h2 {
   width: 128px;
 }
@@ -29,7 +38,7 @@ h4 {
 }
 
 p {
-  width: 50%;
+  width: 90%;
 }
 
 ol {
@@ -37,7 +46,7 @@ ol {
 }
 
 #links ol {
-  margin: 25px 20%;
+  margin: 25px 5%;
 }
 
 #user-manuals {
@@ -51,8 +60,8 @@ ol {
 }
 
 .drop-shadow-text-box {
-  margin: 20px auto;
-  width: 60%;
+  margin: 0;
+  width: 98%;
   padding: 5px;
   background-color: #e5e5e5c2;
 }
@@ -74,3 +83,31 @@ ol {
   padding: 10px;
 }
 
+@media screen and (min-width: 525px) {
+  .resources-description li{
+    display: inline-block;
+    margin: 0;
+  }
+
+  .drop-shadow-text-box {
+    margin: 20px auto;
+    width: 80%;
+  }
+
+}
+
+@media screen and (min-width: 900px) {
+  .drop-shadow-text-box {
+    margin: 20px auto;
+    width: 60%;
+  }
+
+  #links ol {
+    margin: 25px 20%;
+  }
+
+
+  p {
+    width: 50%;
+  }
+}
