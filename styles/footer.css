@@ -1,14 +1,15 @@
+
+
 footer {
   background-color: #696969;
   color: #e0e0e0;
   text-align: center;
-  height: 80px;
+  height: 100%;
 }
 
 .disclaimer__NREL-disclaimer {
-/*  font-size: 0.5rem;*/
   padding: 0 1rem;
-  width: 95%;
+  width: 90%;
   margin: 0;
   letter-spacing: 0;
   font-size: 10px;
@@ -45,4 +46,10 @@ footer a:hover {
 
 .disclaimer__NREL-disclaimer {
   text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  .disclaimer__NREL-disclaimer {
+    width: 95%;
+  }
 }
