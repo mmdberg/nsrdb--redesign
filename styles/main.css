@@ -27,6 +27,16 @@ h3 {
   text-align: center;
 }
 
+
+
+/*h3 {
+  font-size: 1.5em;
+  margin: 20px auto;
+  padding: 10px;
+  width: 15%;
+  text-align: center;
+}*/
+
 :target h3 {
   border-bottom: 2px #69696994 solid;
   font-weight: bold;

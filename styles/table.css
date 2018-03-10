@@ -2,7 +2,10 @@ table {
   width: 70%;
   margin: 25px auto;
   background-color: #fff;
+  overflow-x: scroll;
 }
+
+
 
 th {
   font-weight: bold;
