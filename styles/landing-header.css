@@ -22,10 +22,9 @@ a {
   margin-right: 2em;
 }
 
-a:hover {
+nav a:hover {
   border: 2px #69696994 solid;
   padding: 3px;
-  padding-bottom: 3px;
   background-color: #69696940;
   color: #fff;
 }
@@ -58,17 +57,17 @@ a:hover {
 }
 
 .nav__drop-down {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .nav__drop-down__content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 250px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .nav__drop-down__content a {
@@ -92,10 +91,10 @@ a:hover {
 
 .cancel {
   background-image: url(../images/icons/cancel.svg);
-    height: 45px;
-    width: 47px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 45px;
+  width: 47px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*search bar*/
@@ -113,7 +112,6 @@ a:hover {
   margin: 0;
   width: 20px;
   height: 20px;
-  /*z-index: 1;*/
 }
 
 .search-icon-btn {
@@ -179,6 +177,7 @@ a:hover {
    -moz-transition: all .5s ease;
    transition: all .5s ease;
 }
+
 #search:focus {
    width: 200px;
 }
@@ -205,7 +204,6 @@ a:hover {
   color: #fff;
   font-size: 1.4em;
   font-weight: bold; 
-    
 }
 
 .header__h2 {
@@ -236,7 +234,6 @@ a:hover {
   .nav__drop-down {
     display: none
   }
-
 }
 
 @media screen and (min-width: 845px) {
@@ -244,8 +241,4 @@ a:hover {
     font-size: 1.5em;
     margin-right: 3em;
   }
-
 }
-
-
-
