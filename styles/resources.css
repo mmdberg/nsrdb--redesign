@@ -49,6 +49,14 @@ ol {
   margin: 25px 5%;
 }
 
+a {
+  text-decoration: none;
+  color: #696969;
+  margin: 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+
 #user-manuals {
   background: linear-gradient(
     rgba(212, 212, 212, 0.5),
@@ -92,6 +100,10 @@ ol {
   .drop-shadow-text-box {
     margin: 20px auto;
     width: 80%;
+  }
+
+  p {
+    width: 70%;
   }
 
 }
