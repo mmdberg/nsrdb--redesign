@@ -22,10 +22,9 @@ a {
   margin-right: 3em;
 }
 
-a:hover {
+nav a:hover {
   border: 2px #69696994 solid;
   padding: 3px;
-  padding-bottom: 3px;
   background-color: #69696940;
   color: #fff;
 }
