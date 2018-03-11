@@ -63,12 +63,6 @@ h4 {
   text-align: center;
 }
 
-:target h4 {
-  border: 2px black solid;
-  padding: 10px;
-  margin: 0 30%;
-}
-
 img {
   height: auto;
   width: 100%;
