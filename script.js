@@ -1,18 +1,3 @@
-// $('.content-container').hover(function(){
-//     $('div').toggleClass('show').toggleClass('hide');
-//     return false;
-// });
-
-
-// $('.content-container').click(function(){
-//     $('div').toggleClass('show').toggleClass('hide');
-//     return false;
-// });
-
-
-
-
-
 
 // $('#what-is__toggle').click(readWhatIsToggle);
 // function readWhatIsToggle() {
