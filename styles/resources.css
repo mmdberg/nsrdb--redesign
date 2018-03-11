@@ -31,12 +31,12 @@ h4 {
   font-size: 14px;
   text-align: center;
 }
-
+/*
 :target h4 {
   border: 2px black solid;
   padding: 10px;
   margin: 0 30%;
-}
+}*/
 
 p {
   width: 90%;
@@ -50,7 +50,7 @@ ol {
   margin: 25px 5%;
 }
 
-a {
+main a {
   text-decoration: none;
   color: #696969;
   margin: 0;
