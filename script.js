@@ -1,7 +1,7 @@
-$('.content-container').hover(function(){
-    $('div').toggleClass('show').toggleClass('hide');
-    return false;
-});
+// $('.content-container').hover(function(){
+//     $('div').toggleClass('show').toggleClass('hide');
+//     return false;
+// });
 
 
 // $('.content-container').click(function(){
