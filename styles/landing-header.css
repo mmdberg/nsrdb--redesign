@@ -18,8 +18,8 @@ li {
 a {
   color: #696969;
   text-decoration: none;
-  font-size: 1.5em;
-  margin-right: 3em;
+  font-size: 1em;
+  margin-right: 2em;
 }
 
 nav a:hover {
@@ -36,14 +36,75 @@ nav a:hover {
   padding-bottom: 1px;
 }
 
+/*dropdown*/
+
+.nav__headers {
+  display: none
+}
+
+.nav__drop-down__button {
+  background-image: url(../images/icons/menu.svg);
+  background-color: #d4d2d2ed;
+  height: 45px;
+  width: 47px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav__drop-down__button: hover {
+  background-color: #696969;
+  border: 2px black solid;
+}
+
+.nav__drop-down {
+  position: relative;
+  display: inline-block;
+}
+
+.nav__drop-down__content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.nav__drop-down__content a {
+  color: black;
+  display:block;
+  font-size: 17px;
+  height: 40px;
+  margin: 0;
+  padding: 12px 10px;
+  margin-top: 10px;
+}
+
+.nav__drop-down__content a:hover {
+  background-color: #696969;
+  color: white;
+}
+
+.show {
+  display:block;
+}
+
+.cancel {
+  background-image: url(../images/icons/cancel.svg);
+  height: 45px;
+  width: 47px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*search bar*/
-.search-contanier:focus {
+.search-container:focus {
   background-color: #d4d2d2ed;
   color: #333;
   outline: 0;
 }
 
-.search-contanier {
+.search-container {
   display: table;
   position: absolute;
   bottom: 10px;
@@ -51,7 +112,6 @@ nav a:hover {
   margin: 0;
   width: 20px;
   height: 20px;
-  /*z-index: 1;*/
 }
 
 .search-icon-btn {
@@ -97,7 +157,7 @@ nav a:hover {
   transition: all 0.5s;
 }
 
-.search-contanier: hover > #search-bar {
+.search-container: hover > #search-bar {
   padding-left: 60px;
   padding-right: 10px;
   width: 200px;
@@ -105,7 +165,6 @@ nav a:hover {
 
 #search__magnifying-img {
   width: 100%;
-
 }
 
 #search-bar {
@@ -118,6 +177,7 @@ nav a:hover {
    -moz-transition: all .5s ease;
    transition: all .5s ease;
 }
+
 #search:focus {
    width: 200px;
 }
@@ -144,7 +204,6 @@ nav a:hover {
   color: #fff;
   font-size: 1.4em;
   font-weight: bold; 
-    
 }
 
 .header__h2 {
@@ -162,5 +221,24 @@ nav a:hover {
   text-underline-position: under;
 }
 
+@media screen and (min-width: 570px) {
+  a {
+    font-size: 1em;
+    margin-right: 2em;
+  }
 
+  .nav__headers {
+    display: inherit;
+  }
 
+  .nav__drop-down {
+    display: none
+  }
+}
+
+@media screen and (min-width: 845px) {
+  a {
+    font-size: 1.5em;
+    margin-right: 3em;
+  }
+}

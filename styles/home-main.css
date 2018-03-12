@@ -122,7 +122,7 @@ h3 {
 }
 
 .main__subtitle h3 {
-  margin: 20px 16%;
+  margin: 30px 20%;
 }
 
 .main__subtitle {
@@ -130,31 +130,39 @@ h3 {
   padding: 25px 0;
 }
 
-.main__subtitle__link,
-.main__what-is__link {
-  font-size: 14px;
+
+
+.main__links {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-links__li{
+  position: relative;
+  margin:  5px auto;
+  padding: 28px;
   box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.2);
   border: 2px #69696994 double;
-  padding: 3px;
-/*  border: 2px #696969 solid;
-  padding: 5px;*/
-  margin: 0 16px;
+  width: 60%;
+  height: 35px;
+}
+
+.main-links__li:hover {
+  border: 2px #69696994 solid;
+  background-color: #69696940;
+}
+
+.main__subtitle__link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: black;
 }
 
-.main__what-is__link {
-  margin: 13px 16px;
-}
-
-.main__subtitle__link:hover,
-.main__what-is__link:hover {
-  border: 2px #69696994 solid;
-  padding: 3px;
-  padding-bottom: 3px;
-  background-color: #69696940;
+.main__subtitle__link:hover {
   color: #fff;
-/*  border: 5px #696969 solid;
-  font-weight: bold;*/
 }
 
 .main__button {
@@ -210,9 +218,24 @@ h3 {
 
 .main__what-is {
   text-align: center;
-
   padding: 53px 4% 53px 4%;
-  10px 15% 53px 15%;
+}
+
+.main__what-is__link {
+  font-size: 14px;
+  box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.2);
+  border: 2px #69696994 double;
+  color: black;
+  margin: 13px 16px;
+  padding: 10px;
+}
+
+.main__what-is__link:hover {
+  border: 2px #69696994 solid;
+  padding: 3px;
+  padding-bottom: 3px;
+  background-color: #69696940;
+  color: #fff;
 }
 
 /*ACCESS DATA*/
@@ -532,6 +555,23 @@ footer li {
 /*    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;*/
     height: 250px;
+  }
+
+  .main__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .main-links__li {
+    padding: 34px;
+    margin: 0;
+    margin-right: 20px;
+    width: 150px;
+  }
+
+  .main__subtitle__link {
+    font-size: 1em;
   }
 }
 

@@ -10,7 +10,7 @@
 </head>
 <body>
   <nav class="nav">
-    <ul class="navigation">
+    <ul class="nav__headers">
       <li class="home-page">
         <a href="https://nsrdb.nrel.gov/">HOME</a>
       </li>
@@ -26,7 +26,17 @@
         <a href="https://nsrdb.nrel.gov/contact">CONTACT</a>
         </li>
     </ul>
-    <div class="search-contanier">
+    <div class="nav__drop-down">
+      <button class="nav__drop-down__button"></button>
+        <div class="nav__drop-down__content">
+          <a href="https://nsrdb.nrel.gov/">HOME</a>
+          <a href="https://nsrdb.nrel.gov/#access-data">ACCESS THE DATA</a>
+          <a href="https://nsrdb.nrel.gov/#whatis">ABOUT THE DATA</a>
+          <a href="https://nsrdb.nrel.gov/resources">RESOURCES</a>
+          <a href="https://nsrdb.nrel.gov/contact">CONTACT</a>
+        </div>
+    </div>      
+    <div class="search-container">
       <span class="search-icon-btn">
         <img  id="search__magnifying-img" src="../images/icons/magnifying-glass.svg" alt="magnifying glass image" />
       </span>
@@ -59,7 +69,7 @@
     <section id="user-manuals">
       <div class="drop-shadow-text-box">
         <h3>USER MANUALS</h3>
-        <p class="user-manuals__p">Reference the documentation below for more information about each version of the NSRDB.</p>
+        <p>Reference the documentation below for more information about each version of the NSRDB.</p>
         <h4>Physical Solar Model (PSM)</h4>
         <p>A user manual for the Physical Solar Model will be available soon. Until it is available, please reference the documentation below.</p>
         <ol>
@@ -73,9 +83,9 @@
           <a href="http://journals.ametsoc.org/doi/abs/10.1175/1520-0450%281992%29031%3C0194%3AMSSIFS%3E2.0.CO%3B2" target="_blank">http://journals.ametsoc.org/doi/abs/10.1175/1520-0450%281992%29031%3C0194%3AMSSIFS%3E2.0.CO%3B2.</a></li>
         </ol>
         <h4>Meteorological Statistical Model 3 (MTS3)</h4>
-        <p class="long-p">The <a href="http://www.nrel.gov/docs/fy12osti/54824.pdf" target="_blank">National Solar Radiation Database User's Manual (1991–2010 Update)</a> describes the third version of the NSRDB. The manual provides guidance on using database products, acquaints the user with the many features of the database update, and provides information about how to use database products.</p>
+        <p>The <a href="http://www.nrel.gov/docs/fy12osti/54824.pdf" target="_blank">National Solar Radiation Database User's Manual (1991–2010 Update)</a> describes the third version of the NSRDB. The manual provides guidance on using database products, acquaints the user with the many features of the database update, and provides information about how to use database products.</p>
         <h4>Meteorological Statistical Model 1 (MTS1)</h4>
-        <p class="long-p">The <a href="http://rredc.nrel.gov/solar/pubs/NSRDB/cover.html" target="_blank">National Solar Radiation Database User's Manual (1961–1990)</a> describes the first version of the NSRDB. The manual provides guidance on using database products, acquaints the user with the many features of the database, and provides information about how to use database products.</p>
+        <p>The <a href="http://rredc.nrel.gov/solar/pubs/NSRDB/cover.html" target="_blank">National Solar Radiation Database User's Manual (1961–1990)</a> describes the first version of the NSRDB. The manual provides guidance on using database products, acquaints the user with the many features of the database, and provides information about how to use database products.</p>
       </div>  
     </section>
     <section id="links">

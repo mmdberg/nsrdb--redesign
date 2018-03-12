@@ -10,7 +10,6 @@
   width: 128px;
 }
 
-
 h3 {
   border-bottom: 2px #696969 solid;
   width: 22%;
@@ -19,12 +18,6 @@ h3 {
 h4 {
   font-size: 14px;
   text-align: center;
-}
-
-:target h4 {
-  border: 2px black solid;
-  padding: 10px;
-  margin: 0 30%;
 }
 
 p {
@@ -44,18 +37,18 @@ ol {
   margin: 25px 5%;
 }
 
-nav a {
+nav a, 
+main a {
   color: #696969;
   text-decoration: none;
+}
+
+nav a {
   font-size: 1.5em;
   margin-right: 3em;
 }
 
-
-
-a {
-  text-decoration: none;
-  color: #696969;
+main a {
   margin: 0;
   font-size: 1em;
   font-weight: bold;
@@ -110,7 +103,6 @@ a {
 @media screen and (min-width: 525px) {
   .resources-description li{
     display: inline-block;
-    /*margin: 0;*/
   }
 
   .drop-shadow-text-box {
@@ -121,7 +113,6 @@ a {
   p {
     width: 70%;
   }
-
 }
 
 @media screen and (min-width: 900px) {
@@ -133,7 +124,6 @@ a {
   #links ol {
     margin: 25px 20%;
   }
-
 
   p {
     width: 50%;
