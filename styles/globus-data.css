@@ -12,6 +12,12 @@
   padding: 3px;
 }
 
+.main__links__sections:hover {
+  border: none;
+  color: white;
+  box-shadow: none;
+}
+
 article {
   padding: 20px;
   border-top: 2px solid #696969;
@@ -39,6 +45,13 @@ h3 {
 
 .main__links li {
   margin: 10px;
+}
+
+.main-links-globus:hover {
+  background-color: #69696940;
+  border: 2px #69696994 solid;
+  padding: 3px;
+
 }
 
 p {
@@ -107,7 +120,3 @@ img {
   }
 
 }
-
-
-
-
