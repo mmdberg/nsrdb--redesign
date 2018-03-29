@@ -2,6 +2,7 @@
 @import "main.css";
 @import "footer.css";
 
+
 .globus-data-description {
   padding: 40px;
 }
@@ -57,12 +58,13 @@ h3 {
 p {
   width: 98%;
   letter-spacing: 0;
-
+  line-height: 200%;
 }
 
 main a {
   letter-spacing: 0;
   margin: 0;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .main__instructions p {

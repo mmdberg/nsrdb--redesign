@@ -503,13 +503,11 @@ footer li {
   }
 }
 
-@media screen and (min-width: 430px) {
-  .data-hide p {
-    line-height: 200%;
-  }
-}
+/*@media screen and (min-width: 430px) {
 
-@media screen and (min-width: 545px) {
+}*/
+
+@media screen and (min-width: 550px) {
 
   .header__nav li {
     display: inline-block;
@@ -532,7 +530,7 @@ footer li {
   .ways-to-access-data {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    height: 292px;
+    height: 322px;
   }
 
   .compatability {
@@ -553,6 +551,10 @@ footer li {
 
   .data-hide {
     opacity: 0;
+  }
+
+  .data-hide p {
+    line-height: 200%;
   }
 
   .nsrdb-viewer:hover .data-hide,
@@ -610,16 +612,16 @@ footer li {
 
 
   .main__data {
-    padding: 50px 10%;
+    padding: 50px 8%;
   }
 
   .data-hide p {
     font-size: 13px;
-    margin: 10px;
+/*    margin: 10px;*/
   }
 
  .ways-to-access-data {
-    height: 250px;
+    height: 275px;
   }
 
   .compatability {
@@ -650,7 +652,17 @@ footer li {
   }
 
   .main__data {
-    padding: 0 15%;
+    padding: 0 9%;
+  }
+
+  .data-hide p {
+    font-size: 14px;
   }
 }
 
+@media screen and (min-width: 1055px) {
+  .ways-to-access-data {
+    height: 225px;
+  }
+
+}
