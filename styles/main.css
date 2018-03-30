@@ -113,7 +113,7 @@ p a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 5em;
+    margin: 3em;
   }
 
   .main-links__li {

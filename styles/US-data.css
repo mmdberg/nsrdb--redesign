@@ -39,37 +39,6 @@ table {
   
 }
 
-/*.available-versions__section {
-  background: linear-gradient(
-    rgba(212, 212, 212, 0.2),
-    rgba(194, 192, 192, 0.5)),
-    url('../images/panels.jpg');
-  background-position: bottom;
-}*/
-
-./*physical-solar-model__section {
- 
-  background: linear-gradient(
-    rgba(212, 212, 212, 0.2),
-    rgba(194, 192, 192, 0.5)),
-    url('../images/wind-energy.jpeg');
-  background-position: bottom;
-}
-
-.available-versions__section{
-  background: linear-gradient(
-    rgba(212, 212, 212, 0.2),
-    rgba(194, 192, 192, 0.5)),
-    url('../images/andreas-gucklhorn.jpg');
-}*/
-
-/*.available-versions__section, 
-.data-availability {
-  background-size: cover;
-  background-repeat: no-repeat;
-}*/
-
-
 
 .pdf-links {
   font-size: 1em;
