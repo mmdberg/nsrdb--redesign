@@ -31,8 +31,8 @@
         <button class="nav__drop-down__button"></button>
         <div class="nav__drop-down__content">
           <a href="https://nsrdb.nrel.gov/">HOME</a>
-          <a href="https://nsrdb.nrel.gov/#access-data">ACCESTHE DATA</a>
-          <a href="https://nsrdb.nrel.gov/#whatis">ABOUT THDATA</a>
+          <a href="https://nsrdb.nrel.gov/#access-data">ACCESS THE DATA</a>
+          <a href="https://nsrdb.nrel.gov/#whatis">ABOUT THE DATA</a>
           <a href="https://nsrdb.nrel.gov/resources">RESOURC</a>
           <a href="https://nsrdb.nrel.gov/contact">CONTACT</a>
         </div>
@@ -48,11 +48,12 @@
     </nav>
     <header class="header"> 
       <h1 class="header__h1">NATIONAL  SOLAR RADIATION DATABASE</h1>
-      <h2 class="header__h2">ABOUT</h2>
+      <h2 class="header__h2">ABOUT THE DATA</h2>
+      
     </header>
     <main>
       <section class="about-description">
-        <h3 class="about-description__h3">U.S. DATA</h3>
+        <h3 class="about-description__h3">US DATA</h3>
         <p>NREL has provided solar resource data for the United States through the NRSDB for more than 25 years. We have also recently begun to collect data from a growing number of international locations, including India; to learn more, visit the <a href="https://nsrdb.nrel.gov/international-datasets">NSRDB International page.</a> </p>
       </section>
       <ul class="main__links about-page__main-links">
@@ -71,7 +72,6 @@
         </li> 
       </ul>
       <section class="available-versions__section" id="available-versions">
-        <div class="drop-shadow-text-box">
           <h3>AVAILABLE VERSIONS</h3>
           <p>
             There have been substantial improvements in solar data collection and modeling technologies throughout the 25 years of existence of the NSRDB. As better technologies became available, NREL migrated to these new technologies and updated the NSRDB on an ongoing basis. NREL implemented major changes to the original database in 1991, 2005, and 2012.
@@ -80,7 +80,6 @@
 
             With this shift to physics-based, gridded data collection, the version names were changed to distinguish them. The NSRDB updates that collected data from stations are now Meteorological Statistical Models (MTS) 1, 2, and 3. The most recent update that used the physics-based approach is now called the Physical Solar Model (PSM). Read more about the current version below.
           </p>
-        </div>
       </section>
       <section class="current-version__section">
         <table class="current-version__table">
@@ -139,13 +138,11 @@
         </table>
       </section>
       <section class="physical-solar-model__section" id="psm">
-        <div class="drop-shadow-text-box">
           <h3>ABOUT THE PHYSICAL SOLAR MODEL</h3>
           <p>The current version of the NSRDB (v2.0.0) was developed using the Physical Solar Model (PSM), and offers users the latest available data (1998–2014). NSRDB comprises 30-minute solar and meteorological data for approximately 2 million 0.038-degree latitude by 0.038-degree longitude surface pixels (nominally 4 km2). The area covered is bordered by longitudes 25° W on the east and 175° W on the west, and by latitudes -20° S on the south and 60° N on the north.
 
           The PSM was developed by NREL in collaboration with the University of Wisconsin, the National Oceanic and Atmospheric Administration (NOAA), and Solar Consulting Services. PSM uses cloud properties from the satellite retrievals and then uses those properties to calculate surface radiation. The cloud properties in PSM are generated using the AVHRR Pathfinder Atmospheres-Extended (PATMOS-x) algorithms that have been adapted for use with GOES data. NREL developed the all-sky radiation model for solar applications (FARMS) that incorporates the cloud properties from PATMOS-x, aerosol optical depth (AOD), and precipitable water vapor (PWV) from ancillary sources to compute GHI in cloudy scenes. The DNI for cloudy scenes is then computed using the DISC model. The REST2 model is used to estimate DNI and GHI under clear sky conditions.  The meteorological data set associated with the NSRDB data was derived from NASA Modern Era-Retrospective Analysis (MERRA) datasets. MERRA has varying temporal and spatial resolution depending on the variable; however, the variables used in the NSRDB are hourly at 40 km2 spatial resolution, which is then interpolated to match the 4 km by 4 km grid and half-hourly temporal resolution.</p>
           <p>Note: On March 21, 2016, the PSM version number changed from V2.0 to V2.0.1 because relative humidity and dew point data sets were corrected.</p>
-        </div>
       </section>
       <section class="data__table">
         <table class="data__table-1">
@@ -300,24 +297,22 @@
         </table>
       </section>
       <section class="data-availability">
-        <div class="drop-shadow-text-box" id=
-        "data-availability">
           <h3>DATA AVAILABILITY</h3>
           <p>USA: 1998–2014
 
           Other countries: 1998–2014, with 2005–2012 available publicly. To obtain the full 1998–2014 data set, please contactnsrdb@nrel.gov.
 
           Anguilla, Antigua and Barbuda, Aruba, Bahamas, Barbados, Belize, Bermuda, Bolivia, Brazil, British Virgin Islands, Canada, Cape Verde, Cayman Island, Chile, Colombia, Costa Rica, Cuba, Curaçao, Dominica, Dominican Republic, Ecuador, El Salvador, Grenada, Guatemala, Guyana, Haiti, Honduras, Jamaica, Kiribati, Mexico, Montserrat, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Barthélemy, Saint Lucia, Sint Maarten, St Vincent and the Grenadines, St-Martin, St. Kitts and Nevis, St. Pierre and Miquelon, Suriname, Trinidad and Tobago, Turks and Caicos Islands, U.S. Minor Outlying Islands, U.S. Virgin Islands, and Venezuela</p>
-        </div>
       </section>
       <section class="notes" id="notes">
-        <h3>NOTES</h3>
-        <p>Snow data has missing values.
+          <h3>NOTES</h3>
+          <p>Snow data has missing values.
 
-        11/12/2015 – Relative Humidity data is incorrect; we are in the process of correcting the data.
+          11/12/2015 – Relative Humidity data is incorrect; we are in the process of correcting the data.
 
-        11/12/2015 – There is a time period in few pixels where the maximum DNI goes above the extraterrestrial values; we are in the process of correcting this.</p>
+          11/12/2015 – There is a time period in few pixels where the maximum DNI goes above the extraterrestrial values; we are in the process of correcting this.</p>
       </section>
+      <section class="footer_image"></section>
     </main>
     <footer class="disclaimer" role="contentInfo">
       <p class="disclaimer__NREL-disclaimer">
@@ -331,5 +326,8 @@
       </ul>
       <p class="disclaimer__github-link"><a href="https://github.com/18F/product-guide/edit/18f-pages/pages/product-management-at-18f.md">Edit this page</a> or <a href="https://github.com/18F/product-guide/issues">file an issue</a> on GitHub</p>      
     </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="downloads/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="../script.js"></script>
   </body>
 </html>

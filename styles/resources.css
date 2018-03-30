@@ -43,10 +43,10 @@ main a {
   text-decoration: none;
 }
 
-nav a {
+/*nav a {
   font-size: 1.5em;
   margin-right: 3em;
-}
+}*/
 
 main a {
   margin: 0;
@@ -69,8 +69,8 @@ main a {
 #user-manuals {
   background: linear-gradient(
     rgba(212, 212, 212, 0.5),
-    rgba(194, 192, 192, 0.5)),
-    url('../images/nyc-night.jpg');
+    rgba(194, 192, 192, 0.5))
+/*    url('../images/nyc-night.jpg'*/;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px;
@@ -92,12 +92,19 @@ main a {
 #publications {
   background: linear-gradient(
     rgba(212, 212, 212, 0.5),
-    rgba(194, 192, 192, 0.5)),
-    url('../images/andreas-gucklhorn.jpg');
+    rgba(194, 192, 192, 0.5));
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   padding: 10px;
+}
+
+.footer_image {
+  background: linear-gradient(
+    rgba(212, 212, 212, 0.2),
+    rgba(194, 192, 192, 0.5)),
+    url('../images/andreas-gucklhorn.jpg');
+    height: 250px;
 }
 
 @media screen and (min-width: 525px) {
