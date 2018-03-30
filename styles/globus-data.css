@@ -8,21 +8,23 @@
 }
 
 .main__links__sections {
-  box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.2);
-  border: 2px #69696994 double;
-  padding: 3px;
-}
-
-.main__links__sections:hover {
-  border: none;
-  color: white;
-  box-shadow: none;
+  font-size: 1.3em;
 }
 
 article {
   padding: 20px;
   border-top: 2px solid #696969;
   margin: 0;
+}
+
+.main__links {
+  display: none
+}
+
+.main-links-globus {
+  width: 40px;
+  height: 30px;
+  padding-top: 20px;
 }
 
 h3 {
@@ -38,21 +40,6 @@ h3 {
 
 .header__h2 {
   width: 265px;
-}
-
-.main__links {
-  display: none
-}
-
-.main__links li {
-  margin: 10px;
-}
-
-.main-links-globus:hover {
-  background-color: #69696940;
-  border: 2px #69696994 solid;
-  padding: 3px;
-
 }
 
 p {
@@ -111,6 +98,9 @@ img {
   .main__links {
     display: inherit;
   }
+
+
+
 
   article {
     padding: 40px;
