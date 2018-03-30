@@ -99,9 +99,9 @@ p a {
   }
 
   p {
-    margin: 5em auto;
+    margin: 3em auto;
     font-size: 1.6em;
-    /*width: 50%;*/
+ 
   }
 
   .drop-shadow-text-box {
@@ -148,7 +148,7 @@ p a {
 
 @media screen and (min-width: 1200px) {
   p {
-    width: 60%;
+    width: 55%;
   }
 
   .drop-shadow-text-box p {
