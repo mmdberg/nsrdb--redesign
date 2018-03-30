@@ -3,9 +3,6 @@
 @import "footer.css";
 @import "table.css";
 
-
-
-
 .main__links li {
   padding-bottom: 15px;
 
@@ -23,14 +20,7 @@
   margin: 30px 0 10px;
 }
 
-.available-data__section {
-  background: linear-gradient(
-    rgba(212, 212, 212, 0.2),
-    rgba(194, 192, 192, 0.5)),
-    url('../images/solar-panel.jpeg');
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
+.available-data__section { 
   overflow: scroll;
 }
 
@@ -136,7 +126,6 @@ article h1 {
 
 .international-list__h3 {
   margin: 20px auto;
-  /*width: 40%;*/
 }
 
 .international-list--header p {
@@ -151,19 +140,17 @@ article h1 {
   
 }
 
-.SUNY-data__section {
-   background: linear-gradient(
+.footer_image {
+  background: linear-gradient(
     rgba(212, 212, 212, 0.2),
     rgba(194, 192, 192, 0.5)),
     url('../images/andreas-gucklhorn.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+    height: 250px;
 }
 
-/*.SUNY-data__section h3 {
-  width: 28%;
-}*/
-
+.SUNY-data__section {
+  margin: 0 auto;
+}
 
 /* references*/
 
@@ -172,7 +159,7 @@ article h1 {
  }
 
 .ref h3 {
-  width: 23%;
+  width: 75%;
 }
 
 .ref ul {
@@ -217,25 +204,21 @@ article h1 {
     background-position: right;
   }
 
-  .available-data__section .drop-shadow-text-box {
-    width: 65%;
-  }
-
-  .drop-shadow-text-box {
-    width: 65%;
-  }
-
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1000px) {
   article {
     width: 35%;
   }
 
   .ref ul {
-    width: 65%;
+    width: 75%;
   }
-
-  
+ 
 }
 
+@media screen and (min-width: 1200px) {
+  .ref ul {
+    width: 60%;
+  }
+}

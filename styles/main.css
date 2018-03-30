@@ -21,8 +21,9 @@ body {
 }
 
 h3 {
+  width: 75%;
   font-size: 1.4em;
-  margin: 20px auto;
+  margin: 30px auto;
   padding: 10px;
   text-align: center;
   border-bottom: 2px #69696994 solid;
@@ -34,7 +35,7 @@ p {
   margin: 25px auto;
   width: 80%;
   font-size: 1.4em;
-  line-height: 150%;
+  line-height: 200%;
   letter-spacing: 0;
   text-align: left;
   white-space: pre-line;
@@ -51,21 +52,22 @@ p a {
   text-align: center;
   display: flex;
   flex-direction: column;
+  /*margin: 5em;*/
+
 }
 
 .main-links__li{
   position: relative;
   margin:  5px auto;
   padding: 10px;
-  box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.2);
-  border: 2px #69696994 double;
+      box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0.3);
   width: 60%;
   height: 35px;
+  background-color: #fff;
 }
 
 .main-links__li:hover {
   border: 2px #69696994 solid;
-  background-color: #69696940;
 }
 
 .links__page {
@@ -74,10 +76,6 @@ p a {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.5em;
-}
-
-.links__page:hover {
-  color: #fff;
 }
 
 .drop-shadow-text-box {
@@ -93,19 +91,17 @@ p a {
   width: 60%;
 }
 
-@media screen and (min-width: 500px) {
-  .drop-shadow-text-box {
-    margin: 10px;
-  }
-}
 
 @media screen and (min-width: 800px) {
   h3 {
+    margin: 3em auto;
     width: 35%;
   }
 
   p {
-    width: 55%;
+    margin: 5em auto;
+    font-size: 1.6em;
+    /*width: 50%;*/
   }
 
   .drop-shadow-text-box {
@@ -117,6 +113,7 @@ p a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 5em;
   }
 
   .main-links__li {
@@ -129,12 +126,36 @@ p a {
   .links__page {
     font-size: 1.3em;
   }
-
+  
+  .ref {
+    margin-bottom: 5em;
+  }
 
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1000px) {
+  p {
+    width: 60%;
+  }
+
+  .drop-shadow-text-box p {
+  width: 75%;
+  }
   .drop-shadow-text-box {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  p {
+    width: 60%;
+  }
+
+  .drop-shadow-text-box p {
     width: 65%;
+  }
+
+  .drop-shadow-text-box {
+    width: 60%;
   }
 }

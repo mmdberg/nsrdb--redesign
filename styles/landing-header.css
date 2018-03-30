@@ -3,15 +3,14 @@ nav {
   position: relative;
 }
 
-ul {
-  text-align: center;
-  margin-top: 10px;
+ul {   
+  margin-top: 20px;
   padding-left: 0;
 }
 
 li {
   display: inline-block;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 
 }
 
@@ -23,15 +22,19 @@ a {
 }
 
 nav a:hover {
-  border: 2px #69696994 solid;
+  border-bottom: 2px #69696994 solid;
   padding: 3px;
-  background-color: #69696940;
-  color: #fff;
 }
 
+header p {
+  width: 39%;
+  font-size: 2.3em;
+  font-weight: bold;
+  margin: 10% auto;
+}
 
 #header__nav--active {
-  border: 2px #69696994 solid;
+  border-bottom: 2px #69696994 solid;
   padding: 3px;
   padding-bottom: 1px;
 }
@@ -39,7 +42,12 @@ nav a:hover {
 /*dropdown*/
 
 .nav__headers {
-  display: none
+  margin: 20px 3% 0;
+  display: none;
+  position: relative;
+  right: 60px;
+  text-align: right;
+  
 }
 
 .nav__drop-down__button {
@@ -185,8 +193,8 @@ nav a:hover {
 /*header*/
 
 .header {
+  height: 270px;
   border-top: 2px black solid;
-  height: 200px;
   width: 100%;
   background: linear-gradient(
     rgba(212, 212, 212, 0.2),
@@ -202,28 +210,30 @@ nav a:hover {
   margin-top: 1em;
   padding-top: 2em;
   color: #fff;
-  font-size: 1.4em;
+  font-size: 2em;
   font-weight: bold; 
 }
 
 .header__h2 {
-  border: 2px #fff solid;
-  margin: 2em auto;
-  width: 80px;
+  border: 3px #fff solid;
+  margin: 3em auto;
+  width: 250px;
   height: 30px;
   padding-top: 1.5em;
   padding-bottom: 5px;
-  color: #fff;
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-weight: bold;
   letter-spacing: 2px;
   text-align: center;
   text-underline-position: under;
 }
 
-@media screen and (min-width: 570px) {
-  a {
-    font-size: 1em;
+@media screen and (min-width: 800px) {
+  .header__h1 {
+    margin-top: 4em;
+  }
+
+  .nav__headers a {
     margin-right: 2em;
   }
 
@@ -237,8 +247,11 @@ nav a:hover {
 }
 
 @media screen and (min-width: 845px) {
+  .header {
+    height:350px; 
+  }
+
   a {
-    font-size: 1.5em;
     margin-right: 3em;
   }
 }
