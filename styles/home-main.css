@@ -29,6 +29,7 @@ header {
                     url('../images/earth-night.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   text-align: center;
   font-size: 1em;
   width: 100%;
@@ -184,6 +185,7 @@ h3 {
   height: 100%;
   width: 100%;
   opacity: .7;
+  
 }
 
   .main-image1 {

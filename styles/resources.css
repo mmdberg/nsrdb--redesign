@@ -18,10 +18,11 @@ h3 {
 h4 {
   font-size: 14px;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 p {
-  text-align: center;
+  text-align: left;
   width: 90%;
 }
 
@@ -30,11 +31,7 @@ p {
 }
 
 ol {
-  margin: 25px 8%;
-}
-
-#links ol {
-  margin: 25px 5%;
+  margin: 25px 2%;
 }
 
 nav a, 
@@ -43,15 +40,26 @@ main a {
   text-decoration: none;
 }
 
-nav a {
-  font-size: 1.5em;
-  margin-right: 3em;
-}
-
 main a {
   margin: 0;
-  font-size: 1em;
+}
+
+main ol a {
+  color: #493084;
+}
+
+main a:hover {
+  text-decoration: underline; 
+}
+
+main li a, main li, .manual-title {
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 1px;
+/*  font-size: 11px,*/
+/*  margin: 0;*/
+  font-size: 1.1em;
   font-weight: bold;
+  overflow-wrap: break-word;
 }
 
 .main__links__a {
@@ -62,42 +70,34 @@ main a {
   font-size: 1.5em;
 }
 
-.main__links__a:hover {
-  color: #fff;
-}
-
-#user-manuals {
-  background: linear-gradient(
-    rgba(212, 212, 212, 0.5),
-    rgba(194, 192, 192, 0.5)),
-    url('../images/nyc-night.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 10px;
-}
-
 .drop-shadow-text-box {
-  margin: 0;
-  width: 98%;
+  margin: 20px auto;
+  width: 85%;
   padding: 5px;
-  background-color: #e5e5e5c2;
+  background: rgba(212, 212, 212, 0.5)
 }
 
 #publications li,
 #links li,
 #user-manuals li {
-    display: list-item;
+  display: list-item;
+
 }
 
-#publications {
+.manual-title {
+  display: block;
+
+  font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px
+}
+
+.footer_image {
   background: linear-gradient(
-    rgba(212, 212, 212, 0.5),
+    rgba(212, 212, 212, 0.2),
     rgba(194, 192, 192, 0.5)),
     url('../images/andreas-gucklhorn.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  padding: 10px;
+    height: 250px;
 }
 
 @media screen and (min-width: 525px) {
@@ -113,6 +113,16 @@ main a {
   p {
     width: 70%;
   }
+
+  ol {
+    margin: 25px 6%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  p {
+    margin: 25px auto
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -121,9 +131,6 @@ main a {
     width: 60%;
   }
 
-  #links ol {
-    margin: 25px 20%;
-  }
 
   p {
     width: 50%;
