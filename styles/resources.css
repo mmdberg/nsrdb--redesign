@@ -18,6 +18,7 @@ h3 {
 h4 {
   font-size: 14px;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 p {
@@ -31,10 +32,6 @@ p {
 
 ol {
   margin: 25px 2%;
-}
-
-#links ol {
-  margin: 25px 5%;
 }
 
 nav a, 
@@ -116,6 +113,10 @@ main li a, main li, .manual-title {
   p {
     width: 70%;
   }
+
+  ol {
+    margin: 25px 6%;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -130,9 +131,6 @@ main li a, main li, .manual-title {
     width: 60%;
   }
 
-  #links ol {
-    margin: 25px 20%;
-  }
 
   p {
     width: 50%;
