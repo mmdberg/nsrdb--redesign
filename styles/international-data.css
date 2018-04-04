@@ -28,23 +28,15 @@
   width: fit-content;
 }
 
-/*.drop-shadow-text-box {
-  width: 90%;
-}*/
-
-
 /*table*/
 
 table {
   width: 90%;
-
 }
-
 
 caption {
   margin: 15px;
   text-align: left;
-
 }
 
 /* International countries list*/
@@ -166,13 +158,11 @@ article h1 {
   margin: auto;
   padding: 10px;
   padding-bottom: 30px;
-  background-color: #e5e5e5c2;
 }
 
 .ref li {
   font-size: 1.1em;
 }
-
 
 
 @media screen and (min-width: 600px) {
@@ -188,8 +178,6 @@ article h1 {
     width: 65%;
   }
 }
-
-
 
 @media screen and (min-width: 800px) {
   article {

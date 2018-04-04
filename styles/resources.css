@@ -55,9 +55,7 @@ main a:hover {
 main li a, main li, .manual-title {
   font-family: 'PT Sans', sans-serif;
   letter-spacing: 1px;
-/*  font-size: 11px,*/
-/*  margin: 0;*/
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: bold;
   overflow-wrap: break-word;
 }
@@ -72,6 +70,7 @@ main li a, main li, .manual-title {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.5em;
+  letter-spacing: 1px;
 }
 
 .drop-shadow-text-box {
