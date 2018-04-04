@@ -79,7 +79,8 @@ p a {
 }
 
 .drop-shadow-text-box {
-  width: 90%;
+  margin: auto;
+  width: 95%;
   padding: 5px;
   background: rgba(212, 212, 212, 0.5)
 }
@@ -106,7 +107,6 @@ p a {
 
   .drop-shadow-text-box {
     margin: 20px auto;
-
   }
 
   .main__links {
@@ -142,14 +142,7 @@ p a {
   width: 75%;
   }
   .drop-shadow-text-box {
-    width: 65%;
+    width: 60%;
   }
 }
 
-@media screen and (min-width: 1200px) {
-
-  .drop-shadow-text-box p {
-    width: 70%;
-  }
-
-}
