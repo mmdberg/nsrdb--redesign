@@ -21,10 +21,10 @@ td {
   padding: 5px;
   width: 42%;
   vertical-align: middle;
+  border-bottom: 1px #1a8e92 solid;
 }
 
 caption {
-  width: 55%;
   font-size: 1.4em;
   font-weight: bold;
   margin: 20px auto;

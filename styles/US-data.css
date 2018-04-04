@@ -58,14 +58,15 @@ table {
   h3 {
     width: 14%;
   }
+
   .about-description {
     margin-top: 3em;
-    height: 270px;
   }
 
   .current-version__section caption {
     margin: 20px auto;
-    width: 55%;
+    width: 80%;
+    text-align: center;
   }
 }
 

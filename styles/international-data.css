@@ -28,9 +28,9 @@
   width: fit-content;
 }
 
-.drop-shadow-text-box {
+/*.drop-shadow-text-box {
   width: 90%;
-}
+}*/
 
 
 /*table*/
@@ -181,11 +181,11 @@ article h1 {
   }
 
   .available-data__section .drop-shadow-text-box {
-    width: 90%;
+    width: 75%;
   }
 
   .drop-shadow-text-box {
-    width: 90%;
+    width: 65%;
   }
 }
 
@@ -213,6 +213,10 @@ article h1 {
 
   .ref ul {
     width: 75%;
+  }
+
+  .available-data__section .drop-shadow-text-box {
+    width: 60%;
   }
  
 }
