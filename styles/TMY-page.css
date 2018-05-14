@@ -43,7 +43,7 @@
 
 @media screen and (min-width: 800px) {
   .main__links {
-    padding-bottom: 6em;
+    padding-bottom: 3em;
   }
 
   .main__links li  {
@@ -52,6 +52,10 @@
 }
 
 @media screen and (min-width: 1100px) {
+  .main__links {
+    padding-bottom: 0;
+  }
+
   .main__links li {
     width: 200px;
   }
