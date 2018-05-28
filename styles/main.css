@@ -97,6 +97,42 @@ p a {
   border-bottom: none;
 }
 
+.photo_A {
+  background: linear-gradient(
+    rgba(212, 212, 212, 0.2),
+    rgba(194, 192, 192, 0.5)),
+    url('../images/solar-panel.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.photo_B {
+  background: linear-gradient(
+    rgba(212, 212, 212, 0.2),
+    rgba(194, 192, 192, 0.5)),
+    url('../images/wind-energy.jpeg');
+  background-size: cover;
+  background-position: bottom;
+}
+
+.photo_C {
+  background: linear-gradient(
+    rgba(212, 212, 212, 0.2),
+    rgba(194, 192, 192, 0.5)),
+    url('../images/nyc-night.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.photo_D {
+  background: linear-gradient(
+    rgba(212, 212, 212, 0.2),
+    rgba(194, 192, 192, 0.5)),
+    url('../images/american-public-power-association-cut.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (min-width: 800px) {
   h3 {
     margin: 3em auto;
