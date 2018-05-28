@@ -3,18 +3,18 @@ nav {
   position: relative;
 }
 
-ul {   
+nav ul {   
   margin-top: 20px;
   padding-left: 0;
 }
 
-li {
+nav li {
   display: inline-block;
   margin-bottom: 15px;
 
 }
 
-a {
+nav a {
   color: #696969;
   text-decoration: none;
   font-size: 1em;
@@ -147,7 +147,7 @@ header p {
   border: 1px solid #ccc;
   height: 40px;
   padding: 25px;
-  width: 65px;
+  width: 45px;
 }
 
 .search-input #search-bar:focus {
@@ -252,7 +252,7 @@ header p {
     height:350px; 
   }
 
-  a {
+  nav a {
     margin-right: 3em;
   }
 }
