@@ -26,14 +26,36 @@
   width: 335px;
 }
 
+.top-parph {
+  width: 65%;
+}
+
+.photo-break {
+  width: 80%;
+  height: 300px;
+  background: linear-gradient(
+    rgba(212, 212, 212, 0.2),
+    rgba(194, 192, 192, 0.5)),
+    url('../images/american-public-power-association-cut.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
 @media screen and (min-width: 800px) {
+  .main__links {
+    padding-bottom: 3em;
+  }
+
   .main__links li  {
     height: 50px;
-    /*width: 175px;*/
   }
 }
 
 @media screen and (min-width: 1100px) {
+  .main__links {
+    padding-bottom: 0;
+  }
+
   .main__links li {
     width: 200px;
   }

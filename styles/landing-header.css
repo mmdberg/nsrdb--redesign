@@ -210,13 +210,13 @@ header p {
   margin-top: 1em;
   padding-top: 2em;
   color: #fff;
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: bold; 
 }
 
 .header__h2 {
   border-bottom: 3px #fff solid;
-  margin: 5em auto;
+  margin: 1em auto;
   width: 250px;
   height: 30px;
   padding: 1.5em 10px 5px 10px;
@@ -229,6 +229,10 @@ header p {
 
 @media screen and (min-width: 800px) {
 
+  .header__h2 {
+    margin: 5em auto;
+
+  }
 
   .nav__headers a {
     margin-right: 2em;
@@ -245,6 +249,7 @@ header p {
 
 @media screen and (min-width: 845px) {
   .header__h1 {
+    font-size: 2em;
     margin-top: 2em;
   }
 
