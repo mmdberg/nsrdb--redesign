@@ -15,8 +15,6 @@
 }
 
 body {
-  margin-top: 20px;
-  border-top: 2px #696969 solid;
   background-color: #e5e5e5;
   color: black;
   min-width: 300px;
@@ -296,7 +294,7 @@ footer li {
   }
 
   .main__subtitle h3 {
-    margin: 90px 20%;
+    margin: 40px 24%;
   }
 
 /*  .main__what-is {
