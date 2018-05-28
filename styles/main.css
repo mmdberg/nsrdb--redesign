@@ -17,9 +17,6 @@
 
 body {
   font-size: 62.5%;
-  /*background-color: #e5e5e5;*/
-  /*background-color: #fff;*/
-
 }
 
 h3 {
@@ -53,8 +50,6 @@ p a {
   text-align: center;
   display: flex;
   flex-direction: column;
-  /*margin: 5em;*/
-
 }
 
 .main-links__li {
@@ -83,64 +78,24 @@ p a {
   border-bottom: 2px solid rgba(212, 212, 212, 0.5);
   margin: auto;
   width: 95%;
-  padding: 5px;
-  background: 
-
-  /*background-color: #fff;*/
 }
 
 .drop-shadow-text-box p {
   width: 90%;
 }
-.drop-shadow-text-box h3 {
-  width: 60%;
-}
 
-/*main collage in sub pages: ;*/
 
-.main__collage {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr); 
+.photo-break {
   height: 300px;
-  grid-gap: 0;
-  margin: 0;
 }
 
-.main__collage__image {
-  height: 100%;
-  width: 100%;
-  opacity: .7;
-  
+.photo-break h3 {
+  padding-top: 6em;
+  width: 60%;
+  font-size: 2.5em;
+  color: #fff;
+  border-bottom: none;
 }
-
-  .main-image1 {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-  }
-
-  .main-image2 {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-  }
-  
-  .main-image3 {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-  }
-  
-  .main-image4 {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-  }
-
-  .main-image5 {
-    display: none;
-  }
-
-  .main-image6 {
-    display: none;
-  }
 
 @media screen and (min-width: 800px) {
   h3 {
