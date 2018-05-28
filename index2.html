@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>NSRDB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="normalize/normalize.css">
+    <link rel="stylesheet" href="styles/home-main2.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="nav">
+      <ul class="nav__headers">
+        <li class="home-page">
+          <a  id="header__nav--active" href="https://nsrdb.nrel.gov/">HOME</a>
+        </li>
+        <li class="access-data">
+          <a href="https://nsrdb.nrel.gov/#access-data">ACCESS THE DATA</a>
+        </li>
+        <li class="about-page">
+          <a href="header__nav--active" href="https://nsrdb.nrel.gov/#whatis">ABOUT THE DATA</a>
+        </li>
+        <li class="resource-page">
+          <a href="https://nsrdb.nrel.gov/resources">RESOURCES</a>
+        </li>
+        <li class="contact-page">
+          <a href="https://nsrdb.nrel.gov/contact">CONTACT</a>
+        </li>
+      </ul>
+      <div class="nav__drop-down">
+        <button class="nav__drop-down__button"></button>
+        <div class="nav__drop-down__content">
+          <a href="https://nsrdb.nrel.gov/">HOME</a>
+          <a href="https://nsrdb.nrel.gov/#access-data">ACCESS THE DATA</a>
+          <a href="https://nsrdb.nrel.gov/#whatis">ABOUT THE DATA</a>
+          <a href="https://nsrdb.nrel.gov/resources">RESOURCE</a>
+          <a href="https://nsrdb.nrel.gov/contact">CONTACT</a>
+        </div>
+      </div>
+      <div class="search-container">
+        <span class="search-icon-btn">
+          <img  id="search__magnifying-img" src="./images/icons/magnifying-glass.svg" alt="magnifying glass image" />
+        </span>
+      </div>
+      <div class="search-input">
+        <input id="search-bar" type="search" placeholder="Search...">
+       </div>
+    </nav>
+    <div class="hero-image container">
+      <header role="banner" class="main__header">
+        <h2>NATIONAL SOLAR RADIATION DATABASE</h2>
+        <div class="main__subtitle">
+          <h3>A serially complete collection of meteorological and solar irradiance data sets for the United Stated and a growing list of international locations.</h3>
+        </div>
+      </header>
+      <main role="main">
+        <article class="nsrdb-viewer box1">
+          <div class="nsrdb-viewer--header data-show">
+            <h1>NSRDB VIEWER</h1>
+          </div>
+          <div class="nsrdb-viewer--info data-hide">
+            <h4>NSRDB Viewer</h4>
+            <p>The NSRDB Viewer is the easiest way to download NSRDB data. It is a geospatial web application that allows for the visualization and download of NSRDB data. <a href="https://maps.nrel.gov/nsrdb-viewer/#/?aL=UPEX9%255Bv%255D%3Dt%268VWYIh%255Bv%255D%3Dt%268VWYIh%255Bd%255D%3D1&bL=groad&cE=0&lR=0&mC=31.653381399664%2C3.1640625&zL=2">Click here</a> to go to the viewer.</p>
+          </div>
+        </article>
+        <article class="nsrdb-api box1">
+          <div class="nsrdb-api--header data-show">
+            <h1>NSRDB API</h1>
+          </div>
+          <div class="nsrdb-api--info data-hide">
+            <h4>NSRDB API</h4>
+            <p>NSRDB data is also available through an API. Go <a href="https://developer.nrel.gov/" target="_blank">here</a> to sign up for an API key and request data from the API.</p>
+          </div>
+        </article>
+        <article class="globus-data box1">
+          <div class="globus-data--header data-show">
+            <h1>Globus Data Download</h1>
+          </div>
+          <div class="globus-data--info data-hide">
+            <h4>Globus Data Download</h4>
+            <p>To download a very large amount of data, it is necessary to use Globus. See instructions for using Globusto download NSRDB data <a href="">here.</a></p>
+          </div>
+        </article>
+      </main>
+    </div>
+    <footer class="disclaimer" role="contentInfo">
+      <p class="disclaimer__NREL-disclaimer">
+        NREL is a national laboratory of the <a href="http://energy.gov/" target="_blank">U.S. Department of Energy,</a> <a href="http://energy.gov/eere/office-energy-efficiency-renewable-energy" target="_blank">Office of Energy Efficiency and Renewable Energy,</a> operated by the <a href="http://www.allianceforsustainableenergy.org/" target="_blank">Alliance for Sustainable Energy, LLC</a>
+      </p>
+      <ul>
+        <li><a  class="disclaimer__links" href="https://nsrdb.nrel.gov/contact">Need Help? |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/security.html"> Security & Privacy |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/disclaimer.html"> Disclaimer |</a></li>
+        <li><a  class="disclaimer__links" href="http://www.nrel.gov/"> NREL Home</a></li>
+      </ul>
+      <p class="disclaimer__github-link"><a href="https://github.com/18F/product-guide/edit/18f-pages/pages/product-management-at-18f.md">Edit this page</a> or <a href="https://github.com/18F/product-guide/issues">file an issue</a> on GitHub</p>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="downloads/jquery-3.2.1.min.js"><\/script>')</script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
+
