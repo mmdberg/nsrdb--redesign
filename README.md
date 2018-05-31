@@ -7,8 +7,12 @@ We built multiple static pages using HTML5 and CSS3.
 
 ## Collaborators
 Maddy Dannenberg: [https://github.com/mmdberg]
+
 Sabrina Kennedy: [https://github.com/skenne21]
 
 ## Screenshots
+Original
 ![Original](Original-Home-Page.png)
+
+Redesign
 ![Redesign](Redesign-Home-Page.png)
